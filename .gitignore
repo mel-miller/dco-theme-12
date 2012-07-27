@@ -12,3 +12,4 @@ files/
 /UPGRADE.txt
 robots.txt
 .htaccess
+.DS_store
