@@ -5,7 +5,21 @@
   <title><?php print $head_title; ?></title>  
   <?php print $styles; ?>
   <?php print $scripts; ?>
+  
   <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+  
+  <!--[if gte IE 9]>
+  <style type="text/css">
+    .gradient {
+       filter: none;
+    }
+  </style>
+<![endif]-->
+
+	<!--typekit-->
+	<script type="text/javascript" src="//use.typekit.net/mnw2wda.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
 </head>
 <body<?php print $attributes;?>>
   <div id="skip-link">
