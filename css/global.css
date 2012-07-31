@@ -1,2 +1,163 @@
-/* This file will hold styles for the mobile version of your website (mobile first). */
-/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+/*** mobile first layout + global styles ***/
+
+/**************************************************
+*** text and body
+**************************************************/
+html {}
+
+
+body {
+  font-family: "expressway",sans-serif;
+  font-size: 105%;
+  line-height: 130%;
+  letter-spacing: .07em;
+  background: #fff;
+}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "expressway",sans-serif;
+  color: #000;
+  line-height: 120%;
+  font-weight: 800;
+  letter-spacing: .07em;
+}
+h1 {font-size: 220%;}
+h2 {font-size: 180%;}
+h3 {
+  font-size: 140%;
+  text-transform: uppercase;
+}
+h4 {
+  font-size: 110%;
+  text-transform: uppercase;
+  color: #000;
+}
+p {
+  font-size: 105%;
+  margin-bottom: 10px;
+}
+a,
+a:link,
+a:visited {
+  color: #1aa75d;
+  font-weight: 600;
+  text-decoration: none;
+}
+a:hover {text-decoration: underline;}
+
+
+
+/*######* Header Section *######*/
+
+#section-header {
+/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2EwZDZlZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM3ZGI5ZTgiIHN0b3Atb3BhY2l0eT0iMCIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  rgba(160,214,239,1) 0%, rgba(125,185,232,0) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(160,214,239,1)), color-stop(100%,rgba(125,185,232,0))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(160,214,239,1) 0%,rgba(125,185,232,0) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(160,214,239,1) 0%,rgba(125,185,232,0) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(160,214,239,1) 0%,rgba(125,185,232,0) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(160,214,239,1) 0%,rgba(125,185,232,0) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a0d6ef', endColorstr='#007db9e8',GradientType=0 ); /* IE6-8 */
+}
+
+
+
+/**************************************************
+*** Menu Zone
+**************************************************/
+#zone-menu-wrapper {
+  background: #000; 
+  color: #fff;
+}
+#region-menu {padding: 7px 0 3px 0;}
+.region-menu-inner {
+	text-align: center;
+	padding: 0;
+	margin-right: 15px;
+}
+#main-menu {}
+#main-menu li {
+  text-transform: uppercase;
+  font-size: 78%;
+  padding: 0 5px 0 7px;
+  margin: 0;
+  border-right: 1px solid #fff;
+}
+#main-menu li.first {
+  padding-left: 7px;
+  border-left: 1px solid #fff;
+} 
+#main-menu li a {
+  font-weight: 400;
+  color: #fff;
+  text-decoration: none;
+}
+
+
+/**************************************************
+*** Header Zone
+**************************************************/
+#zone-header-wrapper {min-height: 400px;}
+
+
+
+
+
+
+/*######* Content Section *######*/
+/*
+#section-content {
+background: #fff url(images/ohio_map_sm.png) no-repeat center bottom;
+
+}
+*/
+
+
+/**************************************************
+*** Content Zone
+**************************************************/
+#zone-content {margin-bottom: 40px;}
+.zone-content {
+  color: #000;
+  background: #fff;
+  border: 4px solid #000;
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  padding: 15px;
+  -moz-box-shadow:    4px 4px 11px rgba(50, 50, 50, 0.4);
+  box-shadow:         4px 4px 11px rgba(50, 50, 50, 0.4);
+}
+
+
+
+/**************************************************
+*** Postscript Zone
+**************************************************/
+#zone-postscript {margin-bottom: 30px;}
+.zone-postscript {
+  color: #fff;
+  background: #004FA8;
+  border: 4px solid #fff;
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  padding: 15px;
+  -moz-box-shadow:    4px 4px 11px rgba(50, 50, 50, 0.4);
+  box-shadow:         4px 4px 11px rgba(50, 50, 50, 0.4);
+  min-height: 200px;
+}
+
+
+
+/**************************************************
+*** Postscript Zone
+**************************************************/
+#zone-footer-wrapper {
+  background: #000; 
+  color: #fff;
+}
+#zone-footer {min-height: 40px;}
+#region-footer-first {padding: 10px 0;}
+
+
+
+

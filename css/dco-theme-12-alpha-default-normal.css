@@ -1,3 +1,23 @@
-/* This file will hold styles that are loaded using the same media query as the normal grid. */
-/* If you are using the default media queries provided by Omega, these styles will also
- *  apply to the widescreen layout unless they are overridden by the widescreen styles. */
+/*** 960 layout, will override other two layouts ***/ 
+/* use individual media queries if a wider breakpoint is needed for any item */
+
+
+
+
+
+
+
+
+/**************************************************
+*** Menu Zone
+**************************************************/
+#region-menu {padding: 7px 0 3px 0;}
+.region-menu-inner {margin-right: 20px;}
+#main-menu li {
+  font-size: 85%;
+  padding: 0 8px 0 11px;
+}
+#main-menu li.first {
+  padding-left: 11px;
+  border-left: 1px solid #fff;
+} 
