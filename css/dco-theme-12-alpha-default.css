@@ -1,1 +1,20 @@
 /*** 720px layout + default for all but mobile layout ***/
+
+
+
+
+
+
+
+
+
+
+/*#########################################################
+### Content Section 
+#########################################################*/
+#section-content {background: #fefefe url(images/map-1000.jpg) no-repeat center bottom;}
+
+/**************************************************
+*** Content Zone
+**************************************************/
+#zone-content {min-height: 600px;}

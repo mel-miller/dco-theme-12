@@ -46,7 +46,9 @@ a:hover {text-decoration: underline;}
 
 
 
-/*######* Header Section *######*/
+/*#########################################################
+### Header Section 
+#########################################################*/
 
 #section-header {
 /* IE9 SVG, needs conditional override of 'filter' to 'none' */
@@ -70,28 +72,29 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a0d6ef', end
   color: #fff;
 }
 #region-menu {padding: 7px 0 3px 0;}
-.region-menu-inner {
-	text-align: center;
-	padding: 0;
-	margin-right: 15px;
-}
-#main-menu {}
-#main-menu li {
+
+#region-menu li {
   text-transform: uppercase;
-  font-size: 78%;
+  font-size: 80%;
   padding: 0 5px 0 7px;
   margin: 0;
   border-right: 1px solid #fff;
 }
-#main-menu li.first {
-  padding-left: 7px;
-  border-left: 1px solid #fff;
-} 
-#main-menu li a {
+#region-menu li a {
   font-weight: 400;
   color: #fff;
   text-decoration: none;
 }
+#main-menu li.first {
+  padding-left: 7px;
+  border-left: 1px solid #fff;
+}
+#secondary-menu li.first {padding-left: 2px;}
+.region-menu-inner {
+	text-align: center;
+	padding: 0;
+}
+
 
 
 /**************************************************
@@ -104,19 +107,25 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a0d6ef', end
 
 
 
-/*######* Content Section *######*/
-/*
-#section-content {
-background: #fff url(images/ohio_map_sm.png) no-repeat center bottom;
+/*#########################################################
+### Content Section 
+#########################################################*/
+#section-content {background: #fefefe url(images/map-500.jpg) no-repeat center bottom;}
 
+@media only screen 
+and (min-width : 499px) {
+  #section-content {background: #fefefe url(images/map-800.jpg) no-repeat center bottom;}
 }
-*/
+
+
+
+
 
 
 /**************************************************
 *** Content Zone
 **************************************************/
-#zone-content {margin-bottom: 40px;}
+#zone-content {}
 .zone-content {
   color: #000;
   background: #fff;
@@ -133,7 +142,7 @@ background: #fff url(images/ohio_map_sm.png) no-repeat center bottom;
 /**************************************************
 *** Postscript Zone
 **************************************************/
-#zone-postscript {margin-bottom: 30px;}
+#zone-postscript {margin: 40px auto;}
 .zone-postscript {
   color: #fff;
   background: #004FA8;
@@ -143,13 +152,13 @@ background: #fff url(images/ohio_map_sm.png) no-repeat center bottom;
   padding: 15px;
   -moz-box-shadow:    4px 4px 11px rgba(50, 50, 50, 0.4);
   box-shadow:         4px 4px 11px rgba(50, 50, 50, 0.4);
-  min-height: 200px;
+  min-height: 300px;
 }
 
 
 
 /**************************************************
-*** Postscript Zone
+*** Footer Zone
 **************************************************/
 #zone-footer-wrapper {
   background: #000; 

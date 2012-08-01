@@ -11,13 +11,29 @@
 /**************************************************
 *** Menu Zone
 **************************************************/
-#region-menu {padding: 7px 0 3px 0;}
-.region-menu-inner {margin-right: 20px;}
-#main-menu li {
+
+#region-menu li{
   font-size: 85%;
-  padding: 0 8px 0 11px;
+  padding: 0 9px 0 10px;
 }
 #main-menu li.first {
   padding-left: 11px;
   border-left: 1px solid #fff;
-} 
+}
+#secondary-menu li.first {
+  padding-left: 4px;
+}
+
+
+
+
+/*#########################################################
+### Content Section 
+#########################################################*/
+
+#section-content {background: #fefefe url(images/map-1450.jpg) no-repeat center bottom;}
+
+@media only screen 
+and (min-width : 1449px) {
+  #section-content {background: #fefefe url(images/map-1700.jpg) repeat-x center bottom;}
+}
