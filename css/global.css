@@ -8,7 +8,7 @@ html {}
 
 body {
   font-family: "expressway",sans-serif;
-  font-size: 105%;
+  font-size: 100%;
   line-height: 130%;
   letter-spacing: .07em;
   background: #fff;
@@ -32,7 +32,7 @@ h4 {
   color: #000;
 }
 p {
-  font-size: 105%;
+  font-size: 100%;
   margin-bottom: 10px;
 }
 a,
@@ -100,11 +100,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a0d6ef', end
 /**************************************************
 *** Header Zone
 **************************************************/
-#zone-header-wrapper {min-height: 400px;}
+#zone-header-wrapper {min-height: 110px; background: url(images/header-mobile-320.png) no-repeat center top;}
 
-
-
-
+@media only screen 
+and (min-width : 321px) {
+ #zone-header-wrapper {min-height: 165px; background: url(images/header-mobile-480.png) no-repeat center top;}
+}
 
 
 /*#########################################################

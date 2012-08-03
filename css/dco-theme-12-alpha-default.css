@@ -1,10 +1,49 @@
 /*** 720px layout + default for all but mobile layout ***/
 
 
+/*#########################################################
+### Header Section 
+#########################################################*/
+
+/**************************************************
+*** Header Zone
+**************************************************/
 
 
+#zone-header-wrapper {
+  min-height: 340px; 
+  background: url(images/header-720.png) no-repeat center top;
+}
 
+#zone-header {margin-top: -298px;}
 
+.region-preface-first { /* sessions sign */
+  margin-top: 180px;
+  height: 132px;
+  width: 172px;
+  background: url(images/sessions-720.png) no-repeat 70% bottom;
+}
+
+.region-header-second { /* location sign */
+  margin-top: 270px;
+  height: 59px;
+  width: 180px;
+  background: url(images/location-720.png) no-repeat 80% bottom;
+}
+
+.region-header-third { /* about sign */
+  margin-top: 278px;
+  height: 49px;
+  width: 135px;
+  background: url(images/about-720.png) no-repeat 80% bottom;
+}
+
+.region-header-fourth{ /* sponsors sign */
+  margin-top: 240px;
+  height: 89px;
+  width: 150px;
+  background: url(images/sponsors-720.png) no-repeat 50% bottom;
+}
 
 
 

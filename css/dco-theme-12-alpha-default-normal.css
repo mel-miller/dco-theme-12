@@ -2,10 +2,51 @@
 /* use individual media queries if a wider breakpoint is needed for any item */
 
 
+/*#########################################################
+### Header Section 
+#########################################################*/
+
+
+/**************************************************
+*** Header Zone
+**************************************************/
 
 
 
+#zone-header-wrapper {
+  min-height: 440px; 
+  background: url(images/header-960.png) no-repeat center top;
+}
 
+#zone-header {margin-top: -380px;}
+
+.region-preface-first { /* sessions sign */
+  margin-top: 220px;
+  height: 176px;
+  width: 230px;
+  background: url(images/sessions-960.png) no-repeat 70% bottom;
+}
+
+.region-header-second { /* location sign */
+  margin-top: 345px;
+  height: 79px;
+  width: 240px;
+  background: url(images/location-960.png) no-repeat 80% bottom;
+}
+
+.region-header-third { /* about sign */
+  margin-top: 351px;
+  height: 65px;
+  width: 180px;
+  background: url(images/about-960.png) no-repeat 80% bottom;
+}
+
+.region-header-fourth{ /* sponsors sign */
+  margin-top: 295px;
+  height: 119px;
+  width: 200px;
+  background: url(images/sponsors-960.png) no-repeat 40% bottom;
+}
 
 
 /**************************************************
