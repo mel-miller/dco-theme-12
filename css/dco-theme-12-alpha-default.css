@@ -1,51 +1,52 @@
 /*** 720px layout + default for all but mobile layout ***/
 
-
 /*#########################################################
 ### Header Section 
 #########################################################*/
-
 /**************************************************
 *** Header Zone
 **************************************************/
 
-
 #zone-header-wrapper {
-  min-height: 340px; 
   background: url(images/header-720.png) no-repeat center top;
+  min-height: 320px;
 }
-
-#zone-header {margin-top: -298px;}
+#zone-header {margin-top: -300px;}
 
 .region-preface-first { /* sessions sign */
-  margin-top: 180px;
-  height: 132px;
-  width: 172px;
-  background: url(images/sessions-720.png) no-repeat 70% bottom;
+  margin-top: 160px;
 }
-
 .region-header-second { /* location sign */
-  margin-top: 270px;
-  height: 59px;
-  width: 180px;
-  background: url(images/location-720.png) no-repeat 80% bottom;
+  margin-top: 245px;
 }
-
 .region-header-third { /* about sign */
-  margin-top: 278px;
-  height: 49px;
-  width: 135px;
-  background: url(images/about-720.png) no-repeat 80% bottom;
+  margin-top: 260px;
 }
-
-.region-header-fourth{ /* sponsors sign */
-  margin-top: 240px;
-  height: 89px;
-  width: 150px;
-  background: url(images/sponsors-720.png) no-repeat 50% bottom;
+.region-header-fourth { /* sponsors sign */
+  margin-top: 215px;
 }
-
-
+.region-preface-first img,
+.region-header-second img,
+.region-header-third img,
+.region-header-fourth img {
+  width: 100%;
+}
+.region-preface-first img:hover,
+.region-header-second img:hover,
+.region-header-third img:hover,
+.region-header-fourth img:hover { 
+  transform:rotate(2deg);
+  -ms-transform:rotate(2deg); /* IE 9 */
+  -moz-transform:rotate(2deg); /* Firefox */
+  -webkit-transform:rotate(2deg); /* Safari and Chrome */
+  -o-transform:rotate(2deg); /* Opera */
+}
+.region-preface-first,
+.region-header-second,
+.region-header-third,
+.region-header-fourth {
+  display: block;
+}
 
 
 /*#########################################################
@@ -56,4 +57,10 @@
 /**************************************************
 *** Content Zone
 **************************************************/
-#zone-content {min-height: 600px;}
+#zone-content {min-height: 400px; margin-top: -5px;}
+
+
+
+
+
+

@@ -1,58 +1,33 @@
 /*** 960 layout, will override other two layouts ***/ 
 /* use individual media queries if a wider breakpoint is needed for any item */
 
-
 /*#########################################################
 ### Header Section 
 #########################################################*/
 
-
 /**************************************************
 *** Header Zone
 **************************************************/
-
-
-
 #zone-header-wrapper {
-  min-height: 440px; 
   background: url(images/header-960.png) no-repeat center top;
 }
-
 #zone-header {margin-top: -380px;}
-
 .region-preface-first { /* sessions sign */
-  margin-top: 220px;
-  height: 176px;
-  width: 230px;
-  background: url(images/sessions-960.png) no-repeat 70% bottom;
+  margin-top: 200px;
 }
-
 .region-header-second { /* location sign */
-  margin-top: 345px;
-  height: 79px;
-  width: 240px;
-  background: url(images/location-960.png) no-repeat 80% bottom;
+  margin-top: 315px;
 }
-
 .region-header-third { /* about sign */
-  margin-top: 351px;
-  height: 65px;
-  width: 180px;
-  background: url(images/about-960.png) no-repeat 80% bottom;
+  margin-top: 334px;
 }
-
 .region-header-fourth{ /* sponsors sign */
-  margin-top: 295px;
-  height: 119px;
-  width: 200px;
-  background: url(images/sponsors-960.png) no-repeat 40% bottom;
+  margin-top: 280px;
 }
-
 
 /**************************************************
 *** Menu Zone
 **************************************************/
-
 #region-menu li{
   font-size: 85%;
   padding: 0 9px 0 10px;
@@ -66,15 +41,30 @@
 }
 
 
-
-
 /*#########################################################
 ### Content Section 
 #########################################################*/
-
 #section-content {background: #fefefe url(images/map-1450.jpg) no-repeat center bottom;}
 
 @media only screen 
 and (min-width : 1449px) {
   #section-content {background: #fefefe url(images/map-1700.jpg) repeat-x center bottom;}
 }
+
+/**************************************************
+*** Content Zone
+**************************************************/
+#zone-content {min-height: 600px; margin-top: -10px;}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -45,11 +45,9 @@ a:visited {
 a:hover {text-decoration: underline;}
 
 
-
 /*#########################################################
 ### Header Section 
 #########################################################*/
-
 #section-header {
 /* IE9 SVG, needs conditional override of 'filter' to 'none' */
 background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2EwZDZlZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM3ZGI5ZTgiIHN0b3Atb3BhY2l0eT0iMCIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
@@ -61,8 +59,6 @@ background: -ms-linear-gradient(top,  rgba(160,214,239,1) 0%,rgba(125,185,232,0)
 background: linear-gradient(to bottom,  rgba(160,214,239,1) 0%,rgba(125,185,232,0) 100%); /* W3C */
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a0d6ef', endColorstr='#007db9e8',GradientType=0 ); /* IE6-8 */
 }
-
-
 
 /**************************************************
 *** Menu Zone
@@ -95,8 +91,6 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a0d6ef', end
 	padding: 0;
 }
 
-
-
 /**************************************************
 *** Header Zone
 **************************************************/
@@ -105,6 +99,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a0d6ef', end
 @media only screen 
 and (min-width : 321px) {
  #zone-header-wrapper {min-height: 165px; background: url(images/header-mobile-480.png) no-repeat center top;}
+}
+
+.region-preface-first,
+.region-header-second,
+.region-header-third,
+.region-header-fourth {
+  display: none;
 }
 
 
@@ -117,11 +118,6 @@ and (min-width : 321px) {
 and (min-width : 499px) {
   #section-content {background: #fefefe url(images/map-800.jpg) no-repeat center bottom;}
 }
-
-
-
-
-
 
 /**************************************************
 *** Content Zone
@@ -137,8 +133,6 @@ and (min-width : 499px) {
   -moz-box-shadow:    4px 4px 11px rgba(50, 50, 50, 0.4);
   box-shadow:         4px 4px 11px rgba(50, 50, 50, 0.4);
 }
-
-
 
 /**************************************************
 *** Postscript Zone
@@ -156,8 +150,6 @@ and (min-width : 499px) {
   min-height: 300px;
 }
 
-
-
 /**************************************************
 *** Footer Zone
 **************************************************/
@@ -167,6 +159,14 @@ and (min-width : 499px) {
 }
 #zone-footer {min-height: 40px;}
 #region-footer-first {padding: 10px 0;}
+
+
+
+
+
+
+
+
 
 
 
