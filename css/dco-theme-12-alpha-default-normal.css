@@ -10,19 +10,22 @@
 **************************************************/
 #zone-header-wrapper {
   background: url(images/header-960.png) no-repeat center top;
+  min-height: 440px;
 }
 .region-preface-first { /* sessions sign */
-  margin-top: -230px;
+  margin-top: -235px;
 }
 .region-header-second { /* location sign */
-  margin-top: 355px;
+  margin-top: 340px;
 }
 .region-header-third { /* about sign */
-  margin-top: 350px;
+  margin-top: 347px;
 }
 .region-header-fourth{ /* sponsors sign */
-  margin-top: 295px;
+  margin-top: 290px;
 }
+
+
 
 /**************************************************
 *** Menu Zone

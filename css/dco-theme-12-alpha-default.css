@@ -1,5 +1,12 @@
 /*** 720px layout + default for all but mobile layout ***/
 
+
+/**************************************************
+*** tables
+**************************************************/
+
+
+
 /*#########################################################
 ### Header Section 
 #########################################################*/
@@ -9,23 +16,23 @@
 
 #zone-header-wrapper {
   background: url(images/header-720.png) no-repeat center top;
-  min-height: 340px;
+  min-height: 330px;
 }
 #zone-header { margin-top: 10px; }
 
 .region-preface-first { /* sessions sign */
-  margin-top: -170px;
+  margin-top: -165px;
   width: 100%;
 }
 .region-header-second { /* location sign */
-  margin-top: 270px;
+  margin-top: 260px;
   z-index: 10;
 }
 .region-header-third { /* about sign */
-  margin-top: 280px;
+  margin-top: 272px;
 }
 .region-header-fourth { /* sponsors sign */
-  margin-top: 230px;
+  margin-top: 225px;
 }
 .region-preface-first img,
 .region-header-second img,
@@ -51,6 +58,7 @@
 }
 
 
+
 /*#########################################################
 ### Content Section 
 #########################################################*/
@@ -59,12 +67,10 @@
 /**************************************************
 *** Content Zone
 **************************************************/
-#zone-content {min-height: 400px; margin-top: -5px;}
+#zone-content {min-height: 400px;}
 
-.region-content-inner {
-  padding-right: 30px;
-  padding-bottom: 20px;
-/*   border-right: 3px solid #000; */
+.region-sidebar-second-inner {
+	padding: 20px 10px 20px 0;
 }
 
 
