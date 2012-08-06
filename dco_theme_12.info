@@ -4,42 +4,46 @@ core = '7.x'
 engine = 'phptemplate'
 screenshot = 'screenshot.png'
 base theme = 'omega'
+
 regions[page_top] = 'Page Top'
 regions[page_bottom] = 'Page Bottom'
 regions[content] = 'Content'
-regions[user_first] = 'User Bar First'
-regions[user_second] = 'User Bar Second'
-regions[branding] = 'Branding'
+
+regions[main_logo] = 'Main Logo'
 regions[menu] = 'Menu'
+regions[second_level_menu] = 'Second Level Menu'
+
 regions[sidebar_first] = 'Sidebar First'
 regions[sidebar_second] = 'Sidebar Second'
-regions[header_first] = 'Header First'
+
 regions[header_second] = 'Header Second'
 regions[header_third] = 'Header Third'
 regions[header_fourth] = 'Header Fourth'
+
 regions[preface_first] = 'Preface First'
-regions[preface_second] = 'Preface Second'
-regions[preface_third] = 'Preface Third'
+
 regions[postscript_first] = 'Postscript First'
 regions[postscript_second] = 'Postscript Second'
 regions[postscript_third] = 'Postscript Third'
 regions[postscript_fourth] = 'Postscript Fourth'
+
 regions[footer_first] = 'Footer First'
-regions[footer_second] = 'Footer Second'
-zones[user] = 'User'
-zones[branding] = 'Branding'
+
 zones[menu] = 'Menu'
 zones[header] = 'Header'
 zones[preface] = 'Preface'
 zones[content] = 'Content'
 zones[postscript] = 'Postscript'
 zones[footer] = 'Footer'
+
 css[global.css][name] = 'Your custom global styles'
 css[global.css][description] = 'This file holds all the globally active custom CSS of your theme.'
 css[global.css][options][weight] = '10'
+
 version = '7.x-3.1'
 project = 'omega'
 datestamp = '1329681647'
+
 settings[toggle_logo] = '1'
 settings[toggle_name] = '0'
 settings[toggle_slogan] = '0'
