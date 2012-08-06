@@ -9,21 +9,23 @@
 
 #zone-header-wrapper {
   background: url(images/header-720.png) no-repeat center top;
-  min-height: 320px;
+  min-height: 340px;
 }
-#zone-header {margin-top: -300px;}
+#zone-header { margin-top: 10px; }
 
 .region-preface-first { /* sessions sign */
-  margin-top: 160px;
+  margin-top: -170px;
+  width: 100%;
 }
 .region-header-second { /* location sign */
-  margin-top: 245px;
+  margin-top: 270px;
+  z-index: 10;
 }
 .region-header-third { /* about sign */
-  margin-top: 260px;
+  margin-top: 280px;
 }
 .region-header-fourth { /* sponsors sign */
-  margin-top: 215px;
+  margin-top: 230px;
 }
 .region-preface-first img,
 .region-header-second img,
@@ -58,6 +60,12 @@
 *** Content Zone
 **************************************************/
 #zone-content {min-height: 400px; margin-top: -5px;}
+
+.region-content-inner {
+  padding-right: 30px;
+  padding-bottom: 20px;
+/*   border-right: 3px solid #000; */
+}
 
 
 

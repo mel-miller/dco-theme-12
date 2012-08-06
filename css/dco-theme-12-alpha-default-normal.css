@@ -11,18 +11,17 @@
 #zone-header-wrapper {
   background: url(images/header-960.png) no-repeat center top;
 }
-#zone-header {margin-top: -380px;}
 .region-preface-first { /* sessions sign */
-  margin-top: 200px;
+  margin-top: -230px;
 }
 .region-header-second { /* location sign */
-  margin-top: 315px;
+  margin-top: 355px;
 }
 .region-header-third { /* about sign */
-  margin-top: 334px;
+  margin-top: 350px;
 }
 .region-header-fourth{ /* sponsors sign */
-  margin-top: 280px;
+  margin-top: 295px;
 }
 
 /**************************************************
