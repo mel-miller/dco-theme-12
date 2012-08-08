@@ -340,7 +340,7 @@ and (min-width : 321px) {
 #zone-content {}
 .zone-content {
   color: #000;
-  background: #fdfdfd;
+  background: #fafafa;
   border: 5px solid #000;
   border-radius: 20px;
   -moz-border-radius: 20px;
