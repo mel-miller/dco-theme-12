@@ -1,6 +1,27 @@
 /*** 960 layout, will override other two layouts ***/ 
 /* use individual media queries if a wider breakpoint is needed for any item */
 
+
+body {
+  -webkit-background-size: contain;
+  -moz-background-size: contain;
+  -o-background-size: contain;
+  background-size: contain;  
+}
+
+  body {background: url(images/map-1300.jpg) no-repeat center bottom fixed;}
+
+
+@media only screen 
+and (min-width: 1200px) {
+  body {background: url(images/map-1600.jpg) no-repeat center bottom fixed;}
+}
+
+@media only screen 
+and (min-width: 1620px) {
+  body {background: url(images/map-full.jpg) no-repeat center bottom fixed;}
+}
+
 /*#########################################################
 ### Header Section 
 #########################################################*/
@@ -46,12 +67,27 @@
 /*#########################################################
 ### Content Section 
 #########################################################*/
-#section-content {background: #fefefe url(images/map-1450.jpg) no-repeat center bottom;}
-
-@media only screen 
-and (min-width : 1449px) {
-  #section-content {background: #fefefe url(images/map-1700.jpg) repeat-x center bottom;}
+/*
+#section-content {
+  background: #fefefe url(images/map-2600.jpg) no-repeat center bottom fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;  
 }
+*/
+
+
+/*
+
+
+*/
+
+
+
+
+
+
 
 /**************************************************
 *** Content Zone

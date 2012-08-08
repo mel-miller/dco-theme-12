@@ -1,5 +1,6 @@
 /*** mobile first layout + global styles ***/
 
+
 /**************************************************
 *** text and body
 **************************************************/
@@ -10,7 +11,7 @@ body {
   font-size: 100%;
   line-height: 120%;
   letter-spacing: .07em;
-  background: #fff;
+  background: url(images/map-800.png) no-repeat center bottom fixed;
 }
 dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset {
   margin-bottom: 10px;
@@ -34,15 +35,16 @@ h2 {
   color: #666;  
 }
 h3 {
-  font-size: 160%;
+  font-size: 170%;
   margin-top: 30px;
 }
 h4 {
-  font-size: 120%;
-	margin-top: 5px;
+  font-size: 115%;
+	margin-top: 10px;
 	font-weight: 700;
 	margin-bottom: 5px;
-	color: #555;
+	color: #000;
+	text-transform: uppercase;
 }
 p {
   font-size: 100%;
@@ -265,14 +267,15 @@ input.form-submit:active {
 #########################################################*/
 #section-header {
 /* IE9 SVG, needs conditional override of 'filter' to 'none' */
-background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2EwZDZlZiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM3ZGI5ZTgiIHN0b3Atb3BhY2l0eT0iMCIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
-background: -moz-linear-gradient(top,  rgba(160,214,239,1) 0%, rgba(125,185,232,0) 100%); /* FF3.6+ */
-background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(160,214,239,1)), color-stop(100%,rgba(125,185,232,0))); /* Chrome,Safari4+ */
-background: -webkit-linear-gradient(top,  rgba(160,214,239,1) 0%,rgba(125,185,232,0) 100%); /* Chrome10+,Safari5.1+ */
-background: -o-linear-gradient(top,  rgba(160,214,239,1) 0%,rgba(125,185,232,0) 100%); /* Opera 11.10+ */
-background: -ms-linear-gradient(top,  rgba(160,214,239,1) 0%,rgba(125,185,232,0) 100%); /* IE10+ */
-background: linear-gradient(to bottom,  rgba(160,214,239,1) 0%,rgba(125,185,232,0) 100%); /* W3C */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a0d6ef', endColorstr='#007db9e8',GradientType=0 ); /* IE6-8 */
+background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzc0YjNkYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNmZmZmZmYiIHN0b3Atb3BhY2l0eT0iMCIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+background: -moz-linear-gradient(top,  rgba(116,179,219,1) 0%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(116,179,219,1)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top,  rgba(116,179,219,1) 0%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top,  rgba(116,179,219,1) 0%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top,  rgba(116,179,219,1) 0%,rgba(255,255,255,0) 100%); /* IE10+ */
+background: linear-gradient(to bottom,  rgba(116,179,219,1) 0%,rgba(255,255,255,0) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#74b3db', endColorstr='#00ffffff',GradientType=0 ); /* IE6-8 */
+
 }
 
 /**************************************************
@@ -331,13 +334,6 @@ and (min-width : 321px) {
 /*#########################################################
 ### Content Section 
 #########################################################*/
-#section-content {background: #fefefe url(images/map-500.jpg) no-repeat center bottom;}
-
-@media only screen 
-and (min-width : 499px) {
-  #section-content {background: #fefefe url(images/map-800.jpg) no-repeat center bottom;}
-}
-
 /**************************************************
 *** Content Zone
 **************************************************/
@@ -363,7 +359,11 @@ and (min-width : 499px) {
 }
 
 #block-views-tweets-block {
+<<<<<<< HEAD
   background: #ccc;
+=======
+  background: #efefef;
+>>>>>>> aug 8 edits
   padding: 15px;
   border-radius: 8px;
   margin-bottom: 20px;
@@ -392,7 +392,11 @@ and (min-width : 499px) {
 .tweet-time {font-size: 83%; letter-spacing: .02em;}
 
 #block-views-commerce-cart-block-block-1 {
+<<<<<<< HEAD
   background: #ccc;
+=======
+  background: #efefef;
+>>>>>>> aug 8 edits
   font-size: 90%;
   padding: 15px;
   padding-bottom: 0;
@@ -449,38 +453,40 @@ and (min-width : 499px) {
   min-height: 300px;
 }
 
-
 /**************************************************
 *** Footer Zone
 **************************************************/
 #zone-footer-wrapper {
   background: #000; 
   color: #fff;
+  margin: 0;
 }
 #zone-footer {min-height: 40px;}
 #region-footer-first {padding: 10px 0;}
-
-
 
 /**************************************************
 *** Node Specific
 **************************************************/
 
 .node-promoted.node-not-sticky {
+<<<<<<< HEAD
 	background: #efefef;
+=======
+	background: #fcfcfc;
+>>>>>>> aug 8 edits
 	padding: 15px;
 	border-radius: 10px;
 	margin: 10px 0 30px 0;
+	border: 1px solid #e7e7e7;
 }
 
-/*
-.node-page.node-promoted {
-  border-bottom: none;
+.not-front .node-promoted.node-not-sticky {
+	background: none;
+	padding: 0;
+	border-radius: 0;
+	margin: 0;
+	border: none;
 }
-*/
-
-
-
 .node-sticky {
 	color: #fff;
 	background: #1aa75d;
@@ -506,25 +512,20 @@ and (min-width : 499px) {
 	color: #1aa75d;
   background: #eee;
 }
-
 .node-readmore {
   float: right;
 }
-
 .node-links {margin-top: 20px;}
 
 .node-links ul.inline li {
   padding: 0;
   margin: 0;
 }
-
+.node-news .submitted {margin: 20px 0 10px 0;}
 
 /**************************************************
 *** Shopping Cart Page
 **************************************************/
-
-
-
 
 .line-item-quantity {margin-left: 5px;}
 
