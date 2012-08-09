@@ -47,6 +47,23 @@ and (min-width: 1620px) {
   margin-top: 290px;
 }
 
+<<<<<<< HEAD
+=======
+/* adjusted for firefox */
+.ff .region-header-second { /* location sign */
+  margin-top: 205px;
+  z-index: 10;
+}
+.ff .region-header-third { /* about sign */
+  margin-top: 215px;
+}
+.ff .region-header-fourth { /* sponsors sign */
+  margin-top: 160px;
+}
+
+
+
+>>>>>>> fix firefox bugs
 /**************************************************
 *** Menu Zone
 **************************************************/
