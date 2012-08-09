@@ -53,8 +53,6 @@ body {background: url(images/map-1000.jpg) no-repeat center bottom fixed;}
   display: block;
 }
 
-
-
 /*#########################################################
 ### Content Section 
 #########################################################*/
@@ -66,12 +64,6 @@ body {background: url(images/map-1000.jpg) no-repeat center bottom fixed;}
 .region-sidebar-second-inner {
 	padding: 20px 10px 20px 0;
 }
-
-
-
-/*#########################################################
-### Content Section 
-#########################################################*/
 
 #section-content {
 
@@ -87,5 +79,4 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 background: fixed;
 
 }
-
 
