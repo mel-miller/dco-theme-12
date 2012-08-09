@@ -58,8 +58,6 @@ body {background: url(images/map-1000.jpg) no-repeat center bottom fixed;}
   margin-top: 225px;
 }
 
-<<<<<<< HEAD
-=======
 /* adjusted for firefox */
 .ff .region-header-second { /* location sign */
   margin-top: 160px;
@@ -72,10 +70,6 @@ body {background: url(images/map-1000.jpg) no-repeat center bottom fixed;}
   margin-top: 125px;
 }
 
-
-
-
->>>>>>> fix firefox bugs
 /*#########################################################
 ### Content Section 
 #########################################################*/
