@@ -9,10 +9,14 @@ body {background: url(images/map-1000.jpg) no-repeat center bottom fixed;}
 /**************************************************
 *** Header Zone
 **************************************************/
-
+#logo-text {
+	font-size: 400%;
+	margin: 60px 0 0 45px;
+}
 #zone-header-wrapper {
   background: url(images/header-720.png) no-repeat center top;
   min-height: 330px;
+  margin-top: -113px;
 }
 #zone-header { margin-top: 10px; }
 

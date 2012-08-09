@@ -25,9 +25,14 @@ and (min-width: 1620px) {
 /**************************************************
 *** Header Zone
 **************************************************/
+#logo-text {
+	font-size: 490%;
+	margin: 75px 0 0 90px;
+}
 #zone-header-wrapper {
   background: url(images/header-960.png) no-repeat center top;
   min-height: 440px;
+  margin-top: -142px;
 }
 .region-preface-first { /* sessions sign */
   margin-top: -235px;
