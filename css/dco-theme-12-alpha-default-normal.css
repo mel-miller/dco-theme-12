@@ -59,24 +59,6 @@ and (min-width: 1620px) {
   margin-top: 160px;
 }
 
-
-
->>>>>>> fix firefox bugs
-/**************************************************
-*** Menu Zone
-**************************************************/
-#region-menu li{
-  font-size: 85%;
-  padding: 0 9px 0 10px;
-}
-#main-menu li.first {
-  padding-left: 6px;
-  border-left: 1px solid #fff;
-}
-#secondary-menu li.first {
-  padding-left: 4px;
-}
-
 /*#########################################################
 ### Content Section 
 #########################################################*/

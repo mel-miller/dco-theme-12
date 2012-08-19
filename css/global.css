@@ -9,6 +9,7 @@ body {
   font-size: 100%;
   line-height: 120%;
   letter-spacing: .07em;
+  word-wrap: break-word;
   background: url(images/map-800.png) no-repeat center bottom fixed;
 }
 dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset {
@@ -282,30 +283,30 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#74b3db', end
   color: #fff;
   min-height: 35px;
 }
-#region-menu {padding: 7px 0 3px 0;}
+#region-menu {padding: 5px 5% 5px 0;}
 
 #region-menu li {
   text-transform: uppercase;
   font-size: 80%;
-  padding: 0 5px 0 7px;
-  margin: 0;
-  border-right: 1px solid #fff;
+  margin: 5px 0;
+  display: inline-block;
 }
 #region-menu li a {
   font-weight: 400;
   color: #fff;
   text-decoration: none;
+  padding: 4px 7px;
+  background: #333;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
 }
-#main-menu li.first {
-  border-left: 1px solid #fff;
-  padding-left: 5px;
+#region-menu li a:hover {
+  background: #555;
 }
-#secondary-menu li.first {padding-left: 2px;}
-
 .region-menu-inner {
-	text-align: center;
-	padding: 0;
+  text-align: center;
 }
+
 
 /**************************************************
 *** Header Zone
@@ -330,6 +331,20 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#74b3db', end
 
 @media only screen 
 and (min-width : 321px) {
+   #logo-text {
+	color: #fff;
+	text-transform: uppercase;
+	font-stretch: narrower;
+	z-index: 99;
+	margin: 50px 0 0 14%;
+  }
+}
+@media only screen 
+and (min-width : 400px) {
+   #logo-text {margin: 50px 0 0 18%;}
+}
+@media only screen 
+and (min-width : 450px) {
    #zone-header-wrapper {
      min-height: 165px; background: url(images/header-mobile-480.png) no-repeat center top;
      margin-top: -82px;  
@@ -340,8 +355,32 @@ and (min-width : 321px) {
 	font-stretch: narrower;
 	font-size: 260%;
 	z-index: 99;
-	margin: 50px 0 0 30px;
+	margin: 50px 0 0 7%;
   }
+}
+@media only screen 
+and (min-width : 510px) {
+   #logo-text {margin: 50px 0 0 10%;}
+}
+@media only screen 
+and (min-width : 530px) {
+   #logo-text {margin: 50px 0 0 13%;}
+}
+@media only screen 
+and (min-width : 570px) {
+   #logo-text {margin: 50px 0 0 15%;}
+}
+@media only screen 
+and (min-width : 600px) {
+   #logo-text {margin: 50px 0 0 17%;}
+}
+@media only screen 
+and (min-width : 630px) {
+   #logo-text {margin: 50px 0 0 20%;}
+}
+@media only screen 
+and (min-width : 700px) {
+   #logo-text {margin: 50px 0 0 22%;}
 }
 
 .region-preface-first,
@@ -365,8 +404,7 @@ and (min-width : 321px) {
   border-radius: 20px;
   -moz-border-radius: 20px;
   padding: 0;
-  -moz-box-shadow:    4px 4px 4px rgba(50, 50, 50, 0.3);
-  box-shadow:         4px 4px 4px rgba(50, 50, 50, 0.3);
+  box-shadow:         4px 4px 4px rgba(50, 50, 50, 0.5);
   position: relative;
   z-index: 10;
 }
@@ -381,6 +419,7 @@ and (min-width : 321px) {
   padding: 15px;
   border-radius: 8px;
   margin-bottom: 20px;
+  box-shadow: 0px 1px 2px rgba(50, 50, 50, 0.5);
 }
 #block-views-tweets-block .views-row {
   background: #fff;
@@ -408,30 +447,43 @@ and (min-width : 321px) {
   padding-bottom: 0;
   border-radius: 8px;
   margin-bottom: 30px;
+    box-shadow: 0px 1px 2px rgba(50, 50, 50, 0.5);
 }
 #block-views-commerce-cart-block-block-1 table {
   font-size: 90%;
   line-height: 100%;  
 }
+
+#region-second-level-menu {margin-top: 5px; margin-bottom: 5px;}
+
 #region-second-level-menu ul li {
-  display: inline;
-}
-#region-second-level-menu li {
   text-transform: uppercase;
   font-size: 102%;
   font-weight: 800;
-  margin: 0 5px 0 0;
-  padding-right: 10px;
-  border-right: 2px solid #000;
-}
-#region-second-level-menu li.first {
-  border-left: 2px solid #000;
-  padding-left: 10px;
-}
-#region-second-level-menu li .active {
-  color: #1aa75d;
+  margin: 5px 5px 0 0;
+  display: inline;
 }
 
+#region-second-level-menu ul li a {
+  color: #fff;
+  background: #1aa75d;
+  padding: 6px 8px;
+  border-radius: 8px;
+  box-shadow: 0px 1px 2px rgba(50, 50, 50, 0.5);
+}
+
+#region-second-level-menu li .active {
+  color: #fff;
+  background: #000;
+  text-decoration: none;
+}
+
+#region-second-level-menu li a:hover {
+  color: #fff;
+  background: #222;
+  text-decoration: none;
+}
+  
 /**************************************************
 *** Postscript Zone
 **************************************************/
@@ -441,9 +493,7 @@ and (min-width : 321px) {
   background: #004FA8;
   border: 5px solid #fff;
   border-radius: 20px;
-  -moz-border-radius: 20px;
   padding: 0; /* add padding on region inners */
-  -moz-box-shadow:    4px 4px 11px rgba(50, 50, 50, 0.4);
   box-shadow:         4px 4px 11px rgba(50, 50, 50, 0.4);
   min-height: 300px;
 }
@@ -467,7 +517,7 @@ and (min-width : 321px) {
 	padding: 15px;
 	border-radius: 10px;
 	margin: 10px 0 30px 0;
-	border: 1px solid #e7e7e7;
+	box-shadow: 0px 1px 2px rgba(50, 50, 50, 0.5);
 }
 .not-front .node-promoted.node-not-sticky {
 	background: none;
@@ -475,6 +525,7 @@ and (min-width : 321px) {
 	border-radius: 0;
 	margin: 0;
 	border: none;
+	box-shadow: none;
 }
 .node-sticky {
 	color: #fff;
@@ -482,6 +533,7 @@ and (min-width : 321px) {
 	padding: 15px;
 	border-radius: 10px;
 	margin: 0 0 30px 0;
+	box-shadow: 0px 1px 2px rgba(50, 50, 50, 0.5);
 }
 .node-sticky a {color: #ddd;}
 
@@ -493,6 +545,7 @@ and (min-width : 321px) {
 	padding: 0;
 	border-radius: 0;
 	margin: 0;
+	box-shadow: none;
 }
 .node-sticky h2.node-title,
 .node-sticky h2.node-title a {
