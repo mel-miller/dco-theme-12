@@ -70,7 +70,7 @@ and (min-width: 1620px) {
   padding: 0 9px 0 10px;
 }
 #main-menu li.first {
-  padding-left: 11px;
+  padding-left: 6px;
   border-left: 1px solid #fff;
 }
 #secondary-menu li.first {
