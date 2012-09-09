@@ -23,19 +23,17 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "expressway", sans-serif;
   color: #000;
   line-height: 100%;
-  font-weight: 800;
-  font-weight: bold;
   letter-spacing: .05em;
   text-transform: uppercase;
 }
 h1 {
   font-size: 230%;
-  font-weight: 900;
+  font-weight: 700;
 }
 h2 {
   font-size: 180%;
   color: #666;
-  font-weight: 900;
+  font-weight: 800;
 }
 h3 {
   font-size: 170%;
@@ -55,7 +53,6 @@ a,
 a:link,
 a:visited {
   color: #1aa75d;
-  font-weight: 600;
   text-decoration: none;
 }
 a:hover {text-decoration: underline;}
@@ -420,7 +417,8 @@ and (min-width : 700px) {
 	padding: 20px 10px;
 }
 #block-views-tweets-block,
-#block-user-login {
+#block-user-login,
+#block-system-user-menu {
   padding: 15px;
   border-radius: 15px;
   margin-bottom: 30px;
@@ -597,10 +595,14 @@ and (min-width : 700px) {
 
 .region-postscript-first-inner {padding: 15px;}
 
+.region-postscript-first-inner h2 {
+	
+	
+}
 
 .views-field-field-logo .field-content {
 	float: left;
-	padding: 20px;
+	padding: 10px;
 	margin-right: 40px;
 	border-radius: 15px;
 	border: 3px solid #fff;
@@ -610,6 +612,7 @@ and (min-width : 700px) {
 .views-field-field-logo .field-content img {
 
 }
+
 
 .block-sponsors-block-2 {
 	margin: 10px 0 40px 0;
