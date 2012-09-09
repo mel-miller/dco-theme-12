@@ -52,7 +52,8 @@ p {
 a,
 a:link,
 a:visited {
-  color: #1aa75d;
+/*   color: #1aa75d; */
+  color: #b00;
   text-decoration: none;
 }
 a:hover {text-decoration: underline;}
@@ -63,14 +64,23 @@ h2.block-title {
   text-transform: uppercase;
   margin-bottom: 10px;
 }
+
 h2.node-title {
   font-size: 200%;
   font-weight: 800;
+  color: #000;
 }
+
+h2.node-title a {
+  color: #000;
+}
+
 h2.node-title a:hover {
-  color: #111;
+  color: #b00;
   text-decoration: none;
 }
+
+
 h1#page-title {
  font-size: 240%;
  color: #fff;
@@ -146,13 +156,14 @@ td ul.links {
 #edit-preview-changes,
 #edit-delete,
 .form-submit,
-input.form-submit {
+input.form-submit,
+.node-readmore {
   background: #1aa75d;
   font-size: 70%;
   text-transform: uppercase;
   text-shadow: none;
   margin-top: 20px;
-  padding: 4px 7px;
+  padding: 6px 10px 5px 10px;
   display: inline;
   color: #fff;
   cursor: pointer;
@@ -168,7 +179,8 @@ input.form-submit {
 #edit-reset:hover,
 #edit-submit:hover,
 .form-submit:hover,
-input.form-submit:hover {
+input.form-submit:hover,
+.node-readmore:hover {
   text-decoration: none;
   background: #179151;
 }
@@ -180,36 +192,14 @@ input.form-submit:hover {
 #edit-reset:active,
 #edit-submit:active,
 .form-submit:active,
-input.form-submit:active {
+input.form-submit:active,
+.node-readmore:active {
   background: #147b45;
   -webkit-box-shadow: 0px 1px 1px #999 inset;
   -moz-box-shadow: 0px 1px 1px #999 inset;
   box-shadow: 0px 1px 1px #999 inset;
 }
 
-.node-sticky #edit-checkout,
-.node-sticky #edit-preview,
-.node-sticky #edit-reset,
-.node-sticky #edit-submit,
-.node-sticky #edit-preview-changes,
-.node-sticky #edit-delete,
-.node-sticky .form-submit,
-.node-sticky input.form-submit {
-	color: #000;
-	background: #fff;
-}
-.node-sticky #edit-checkout:hover,
-.node-sticky #edit-preview:hover,
-.node-sticky #edit-reset:hover,
-.node-sticky #edit-preview-changes:hover,
-.node-sticky #edit-delete:hover,
-.node-sticky #edit-reset:hover,
-.node-sticky #edit-submit:hover,
-.node-sticky .form-submit:hover,
-.node-sticky input.form-submit:hover {
-  color: #1aa75d;
-  background: #eee;
-}
 
 /**************************************************
 *** pagers
@@ -500,7 +490,7 @@ and (min-width : 700px) {
   border: 5px solid #fff;
   border-radius: 24px;
   padding: 0; /* add padding on region inners */
-  box-shadow:         4px 4px 11px rgba(50, 50, 50, 0.4);
+  box-shadow: 1px 1px 10px rgba(50, 50, 50, 0.5);
   min-height: 300px;
 }
 
@@ -537,34 +527,22 @@ and (min-width : 700px) {
 	box-shadow: 1px 1px 10px rgba(50, 50, 50, 0.5);
 }
 
-/*
-.node-sticky a {color: #ddd;}
-
-.not-front .node-sticky a {color:#1aa75d;}
-
-.not-front .node-sticky {
-	color: #000;
-	background: none;
-	padding: 0;
-	border-radius: 0;
-	margin: 0;
-	box-shadow: none;
-}
-
-.node-sticky h2.node-title,
-.node-sticky h2.node-title a {
-  color: #fff;
-  font-size: 160%;
-  line-height: 102%;
-}
-.node-sticky h2.node-title a:hover {
-	color: #000;
-}
-*/
 .node-readmore {
+  color: #fff;
   float: right;
   text-transform: uppercase;
+  box-shadow: 1px 1px 1px rgba(50, 50, 50, 0.3);
 }
+
+.node-readmore a {
+  font-size: 110%;
+  color: #fff;
+  text-decoration: none;
+  padding: 4px 10px;
+  display: block;
+  
+}
+
 .node-links {margin-top: 20px;}
 
 .node-links ul.inline li {
