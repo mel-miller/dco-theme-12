@@ -27,10 +27,6 @@ and (min-width: 1620px) {
 *** Menu Zone
 **************************************************/
 
-#region-menu li {
-  font-size: 95%;
-}
-
 .region-menu-inner {
   text-align: center;
   padding-right: 40px;
