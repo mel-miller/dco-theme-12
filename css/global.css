@@ -72,7 +72,9 @@ h2.node-title a:hover {
   text-decoration: none;
 }
 h1#page-title {
- font-size: 230%;
+ font-size: 240%;
+ color: #fff;
+ padding: 0 0 10px 10px;
 }
 .tabs {
   padding: 10px 0 30px 0;
@@ -469,8 +471,8 @@ and (min-width : 700px) {
 }
 
 #region-second-level-menu ul li a {
-  color: #fff;
-  background: #1aa75d;
+  color: #1aa75d;
+  background: #fff;
   padding: 6px 8px;
   border-radius: 8px;
   box-shadow: 1px 1px 10px rgba(50, 50, 50, 0.5);
@@ -524,12 +526,7 @@ and (min-width : 700px) {
 	box-shadow: 1px 1px 10px rgba(50, 50, 50, 0.5);
 }
 .not-front .node-promoted.node-not-sticky {
-	background: none;
-	padding: 0;
-	border-radius: 0;
-	margin: 0;
-	border: none;
-	box-shadow: none;
+
 }
 .node-sticky {
 /* 	color: #fff; */
