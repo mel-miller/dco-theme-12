@@ -27,12 +27,12 @@ and (min-width: 1620px) {
 **************************************************/
 #logo-text {
 	font-size: 490%;
-	margin: 75px 0 0 105px;
+	margin: 58px 0 0 105px;
 }
 #zone-header-wrapper {
   background: url(images/header-960.png) no-repeat center top;
   min-height: 440px;
-  margin-top: -142px;
+  margin-top: -140px;
 }
 .region-preface-first { /* sessions sign */
   margin-top: -235px;

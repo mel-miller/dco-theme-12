@@ -32,12 +32,11 @@ h1 {
 }
 h2 {
   font-size: 180%;
-  color: #666;
+  color: #000;
   font-weight: 800;
 }
 h3 {
   font-size: 170%;
-  margin-top: 30px;x
 }
 h4 {
   font-size: 115%;
@@ -82,7 +81,7 @@ h2.node-title a:hover {
 
 
 h1#page-title {
- font-size: 240%;
+ font-size: 260%;
  color: #fff;
  padding: 0 0 10px 10px;
 }
@@ -408,14 +407,25 @@ and (min-width : 700px) {
 .region-sidebar-second-inner {
 	padding: 20px 10px;
 }
+
+.not-front .region-content-inner .block-without-title {
+	padding: 20px;
+	border-radius: 15px;
+	margin: 10px 0 30px 0;
+	background: #fff;
+	box-shadow: 1px 1px 10px rgba(50, 50, 50, 0.5);
+}
+
+
 #block-views-tweets-block,
 #block-user-login,
-#block-system-user-menu {
+#block-system-user-menu,
+#block-views-commerce-cart-block-block-1 {
   padding: 15px;
-  border-radius: 15px;
+  border-radius: 12px;
   margin-bottom: 30px;
-  	background: #eee;
-	box-shadow: 1px 1px 10px rgba(50, 50, 50, 0.5);
+  background: #eaeaea;
+  box-shadow: 1px 1px 10px rgba(50, 50, 50, 0.5);
 }
 #block-views-tweets-block .views-row {
   background: #fff;
@@ -436,15 +446,6 @@ and (min-width : 700px) {
 
 .tweet-time {font-size: 83%; letter-spacing: .02em;}
 
-#block-views-commerce-cart-block-block-1 {
-  font-size: 90%;
-  padding: 15px;
-  padding-bottom: 0;
-  border-radius: 15px;
-  margin-bottom: 30px;
-	background: #eee;
-	box-shadow: 1px 1px 10px rgba(50, 50, 50, 0.5);
-}
 #block-views-commerce-cart-block-block-1 table {
   font-size: 90%;
   line-height: 100%;  
@@ -461,9 +462,9 @@ and (min-width : 700px) {
 }
 
 #region-second-level-menu ul li a {
-  color: #1aa75d;
+  color: #000;
   background: #fff;
-  padding: 6px 8px;
+  padding: 8px 10px;
   border-radius: 8px;
   box-shadow: 1px 1px 10px rgba(50, 50, 50, 0.5);
 }
@@ -508,32 +509,26 @@ and (min-width : 700px) {
 /**************************************************
 *** Node Specific
 **************************************************/
-.node-promoted.node-not-sticky {
+.front .node-promoted.node-not-sticky {
 	padding: 20px;
 	border-radius: 15px;
 	margin: 10px 0 30px 0;
 	background: #fff;
 	box-shadow: 1px 1px 10px rgba(50, 50, 50, 0.5);
 }
-.not-front .node-promoted.node-not-sticky {
-
-}
-.node-sticky {
-/* 	color: #fff; */
+.front .node-promoted.node-sticky {
 	background: #eee;
 	padding: 15px;
 	border-radius: 15px;
 	margin: 0 0 30px 0;
 	box-shadow: 1px 1px 10px rgba(50, 50, 50, 0.5);
 }
-
 .node-readmore {
   color: #fff;
   float: right;
   text-transform: uppercase;
   box-shadow: 1px 1px 1px rgba(50, 50, 50, 0.3);
 }
-
 .node-readmore a {
   font-size: 110%;
   color: #fff;
@@ -565,8 +560,58 @@ and (min-width : 700px) {
 
 
 /**************************************************
-*** sponsors postscript
+*** sponsors postscript and page view
 **************************************************/
+
+.view-id-Sponsors.view-display-id-page_1 .views-row.views-row-last {
+	margin-bottom: 30px;
+}
+
+.view-id-Sponsors.view-display-id-page_1 h3 {margin: 40px 0 10px 0;}
+
+.view-id-sponsorship_benefits table {border: none;}
+
+.view-id-sponsorship_benefits tr.even td,
+.view-id-sponsorship_benefits tr.even td:hover,
+.view-id-sponsorship_benefits tr.odd td,
+.view-id-sponsorship_benefits tr.odd td:hover,
+.view-id-sponsorship_benefits td,
+.view-id-sponsorship_benefits tr,
+.view-id-sponsorship_benefits td:hover,
+.view-id-sponsorship_benefits tr:hover td {
+  background: none;
+}
+
+.view-id-sponsorship_benefits .col-1 {
+  padding-right: 40px;
+}
+
+.view-id-sponsorship_benefits .col-2 {
+  padding: 0 20px;
+}
+
+.view-id-sponsorship_benefits tr td{
+  padding-bottom: 40px;
+}
+
+.view-id-sponsorship_benefits tr.row-last td {
+  padding-bottom: 0;
+}
+
+.view-id-sponsorship_benefits .commerce-add-to-cart {margin: 2px 0 20px 0;}
+
+.view-id-sponsorship_benefits table li {
+	list-style-position: outside;
+	margin-left: 20px;
+}
+
+.view-id-sponsorship_benefits table li p {
+  margin-bottom: 5px;
+  line-height: 110%;
+}
+
+
+
 
 .region-postscript-first-inner {padding: 15px;}
 
@@ -575,33 +620,56 @@ and (min-width : 700px) {
 	
 }
 
-.views-field-field-logo .field-content {
+
+.region-postscript-first-inner .views-field-field-logo .field-content {
 	float: left;
-	padding: 10px;
-	margin-right: 40px;
-	border-radius: 15px;
+	padding: 15px;
+	margin: 0 10px;
+	border-radius: 12px;
 	border: 3px solid #fff;
 	background: #fff;
 }
 
-.views-field-field-logo .field-content img {
+.region-postscript-first-inner .views-field-field-logo .field-content img {
 
 }
 
 
-.block-sponsors-block-2 {
-	margin: 10px 0 40px 0;
+.region-postscript-first-inner .block-sponsors-block-2 {
+	margin: 20px 0 40px 0;
 }
 
 
-.block-sponsors-block-3 {
-	margin: 30px 0 30px 0;
+.region-postscript-first-inner .block-sponsors-block-3 {
+	margin: 40px 0 20px 0;
 }
 
-.block-sponsors-block-4 {
-	margin: 40px 0 10px 0;	
+
+
+/**************************************************
+*** staff page ---- still need to work on this for smaller screens
+**************************************************/
+
+.view-id-attendees.view-display-id-page_2 table  {
+	width: 100%;
 }
 
+.view-id-attendees.view-display-id-page_2 table td {
+	padding: 5px;
+}
+
+
+
+
+
+
+/**************************************************
+*** sessions pages styles go here
+**************************************************/
+
+.view-id-sessions li {
+	list-style-type: none;	
+}
 
 
 
