@@ -10,3 +10,24 @@
  * for your subtheme grows. Please read the README.txt in the /preprocess and /process subfolders
  * for more information on this topic.
  */
+
+function dco_theme_12_preprocess_page(&$vars) {
+  $path = base_path() . drupal_get_path('theme', 'dco_theme_12');
+
+  drupal_add_js(array('pathToTheme' => $path), 'setting');
+  drupal_add_js($path . '/js/jquery.scrolling-parallax.js');
+  drupal_add_js($path . '/js/dco12-parallax.js');
+
+  if (user_is_logged_in()) {
+    $vars['secondary_menu'][] = array(
+    'href' => 'user/logout',
+    'title' => 'Logout',
+    );
+   }
+  else {
+	 $vars['secondary_menu'][] = array(
+    'href' => 'user',
+    'title' => 'Login',
+    );
+  }
+}
