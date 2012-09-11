@@ -520,7 +520,6 @@ and (min-width : 700px) {
   border-radius: 24px;
   padding: 0; /* add padding on region inners */
   box-shadow: 1px 1px 10px rgba(50, 50, 50, 0.5);
-  min-height: 300px;
 }
 
 /**************************************************
@@ -641,21 +640,23 @@ and (min-width : 700px) {
 
 
 
-.region-postscript-first-inner {padding: 15px;}
+.region-postscript-first-inner {
+
+}
 
 .region-postscript-first-inner h2 {
-	
-	
+  text-align: center;
 }
 
 
 .region-postscript-first-inner .views-field-field-logo .field-content {
-	float: left;
-	padding: 15px;
-	margin: 0 10px;
-	border-radius: 12px;
-	border: 3px solid #fff;
-	background: #fff;
+  float: left;
+  padding: 15px;
+  margin: 0 10px;
+  border-radius: 6px;
+  border: 3px solid #fff;
+  background: #fff;
+  height: 60px;
 }
 
 .region-postscript-first-inner .views-field-field-logo .field-content img {
@@ -663,16 +664,11 @@ and (min-width : 700px) {
 }
 
 
-.region-postscript-first-inner .block-sponsors-block-2 {
-	margin: 20px 0 40px 0;
-}
-
-
+.region-postscript-first-inner .block-sponsors-block-2,
 .region-postscript-first-inner .block-sponsors-block-3 {
-	margin: 40px 0 20px 0;
+  float: left;
+  margin: 30px;
 }
-
-
 
 /**************************************************
 *** staff page ---- still need to work on this for smaller screens
