@@ -1,24 +1,6 @@
 /*** 960 layout, will override other two layouts ***/ 
 /* use individual media queries if a wider breakpoint is needed for any item */
 
-body {
-  background: url(images/map-1300.jpg) no-repeat center bottom fixed;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  -o-background-size: contain;
-  background-size: contain;  
-}
-
-@media only screen 
-and (min-width: 1200px) {
-  body {background: url(images/map-1600.jpg) no-repeat center bottom fixed;}
-}
-
-@media only screen 
-and (min-width: 1620px) {
-  body {background: url(images/map-full.jpg) no-repeat center bottom fixed;}
-}
-
 /*#########################################################
 ### Header Section 
 #########################################################*/
