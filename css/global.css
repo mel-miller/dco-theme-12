@@ -10,7 +10,6 @@ body {
   line-height: 120%;
   letter-spacing: .07em;
   word-wrap: break-word;
-  background: url(images/map-800.png) no-repeat center bottom fixed;
 }
 dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset {
   margin-bottom: 10px;
