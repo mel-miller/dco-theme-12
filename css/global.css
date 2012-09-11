@@ -418,6 +418,24 @@ and (min-width : 700px) {
 	box-shadow: 1px 1px 10px rgba(50, 50, 50, 0.5);
 }
 
+.not-front .region-content-inner .tabs {
+  border: 0;
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.not-front .region-content-inner .tabs li a {
+  border-radius: 6px 6px 0 0;
+  box-shadow: 1px 1px 10px rgba(50, 50, 50, 0.5);
+  padding-top: 2px;
+  padding-bottom: 3px;
+}
+
+.not-front .region-content-inner .block-without-title {
+  margin-top: 3px;
+  position: relative;
+}
 
 #block-views-tweets-block,
 #block-user-login,
