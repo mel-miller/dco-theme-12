@@ -17,7 +17,7 @@ function dco_theme_12_preprocess_page(&$vars) {
   drupal_add_js(array('pathToTheme' => $path), 'setting');
   drupal_add_js($path . '/js/jquery.scrolling-parallax.js');
   drupal_add_js($path . '/js/dco12-parallax.js');
-
+/*
   if (user_is_logged_in()) {
     $vars['secondary_menu'][] = array(
     'href' => 'user/logout',
@@ -30,4 +30,5 @@ function dco_theme_12_preprocess_page(&$vars) {
     'title' => 'Login',
     );
   }
+*/
 }
