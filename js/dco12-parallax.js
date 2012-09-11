@@ -10,7 +10,7 @@
       scrollWidth = "100%";
     }
 
-    $.scrollingParallax(Drupal.settings.pathToTheme + '/css/images/map-test-1b.png', {
+    $.scrollingParallax(Drupal.settings.pathToTheme + '/css/images/map-test-1c.png', {
       bgHeight:scrollHeight,
       bgWidth:scrollWidth,
       enableVertical:true,
