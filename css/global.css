@@ -412,6 +412,15 @@ and (min-width : 700px) {
 .region-sidebar-second-inner table {
   color: #000;
 }
+
+.region-sidebar-second a.register-now {
+  background: url(images/register-red.png);
+  border-radius: 20px;
+  box-shadow: 1px 1px 10px rgba(50, 50, 50, 0.5);
+  display: block;
+  text-indent: -9999px;
+}
+
 .not-front .region-content-inner .block-without-title {
 	padding: 20px;
 	border-radius: 15px;
@@ -508,6 +517,8 @@ and (min-width : 700px) {
 #page {
 	position: relative;
 }
+
+
 /**************************************************
 *** Postscript Zone
 **************************************************/
