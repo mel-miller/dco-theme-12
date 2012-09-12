@@ -40,14 +40,20 @@
 }
 
 /* adjusted for firefox */
-.ff .region-header-second { /* location sign */
+.ff .region-header-second,
+.chrome22 .region-header-second,
+.chrome23 .region-header-second { /* location sign */
   margin-top: 205px;
   z-index: 10;
 }
-.ff .region-header-third { /* about sign */
+.ff .region-header-third,
+.chrome22 .region-header-third,
+.chrome23 .region-header-third { /* about sign */
   margin-top: 215px;
 }
-.ff .region-header-fourth { /* sponsors sign */
+.ff .region-header-fourth,
+.chrome22 .region-header-fourth,
+.chrome23 .region-header-fourth { /* sponsors sign */
   margin-top: 160px;
 }
 
