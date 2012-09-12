@@ -39,19 +39,22 @@
   margin-top: 290px;
 }
 
-/* adjusted for firefox */
+/* adjusted for various browsers */
 .ff .region-header-second,
+.opera .region-header-second,
 .chrome22 .region-header-second,
 .chrome23 .region-header-second { /* location sign */
   margin-top: 205px;
   z-index: 10;
 }
 .ff .region-header-third,
+.opera .region-header-third,
 .chrome22 .region-header-third,
 .chrome23 .region-header-third { /* about sign */
   margin-top: 215px;
 }
 .ff .region-header-fourth,
+.opera .region-header-fourth,
 .chrome22 .region-header-fourth,
 .chrome23 .region-header-fourth { /* sponsors sign */
   margin-top: 160px;
