@@ -88,6 +88,11 @@ h1#page-title {
   padding: 10px 0 30px 0;
 }
 
+#messages .messages {
+  border-radius: 15px;
+  margin-top: 10px;
+}
+
 /**************************************************
 *** tables
 **************************************************/
@@ -147,7 +152,6 @@ td ul.links {
 /**************************************************
 *** buttons
 **************************************************/
-#edit-checkout,
 #edit-preview,
 #edit-reset,
 #edit-submit,
@@ -200,6 +204,10 @@ input.form-submit:active,
   box-shadow: 0px 1px 1px #999 inset;
 }
 
+.checkout-buttons .form-submit {
+  margin-top: 0px;
+  margin-right: 10px;
+}
 
 /**************************************************
 *** pagers
