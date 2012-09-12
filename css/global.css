@@ -419,6 +419,16 @@ and (min-width : 700px) {
   box-shadow: 1px 1px 10px rgba(50, 50, 50, 0.5);
   display: block;
   text-indent: -9999px;
+  height: 161px;
+  width: 290px;
+}
+
+.responsive-layout-narrow .region-sidebar-second a.register-now {
+  border-radius: 12px;
+  box-shadow: 1px 1px 10px rgba(50, 50, 50, 0.5);
+  height: 116px;
+  width: 210px;
+  background-size: 210px 116px;
 }
 
 .not-front .region-content-inner .block-without-title {
