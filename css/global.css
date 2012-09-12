@@ -421,6 +421,7 @@ and (min-width : 700px) {
   text-indent: -9999px;
   height: 161px;
   width: 290px;
+  margin-bottom:30px;
 }
 
 .responsive-layout-narrow .region-sidebar-second a.register-now {
