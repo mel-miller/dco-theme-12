@@ -1,7 +1,7 @@
 (function ($) {
   
   function resizeMap() {
-    if ($(window).width() < 980) {
+    if ($(window).width() / $(window).height() < 1.267 ) {
       scrollHeight = "150%";
       scrollWidth = "auto";
     }
