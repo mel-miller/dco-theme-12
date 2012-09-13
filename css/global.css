@@ -440,6 +440,14 @@ and (min-width : 700px) {
   background-size: 210px 116px;
 }
 
+.region-sidebar-second a.register-now:hover {
+  background-position: 0 -161px;
+}
+
+.responsive-layout-narrow .region-sidebar-second a.register-now:hover {
+  background-position: 0 -116px;
+}
+
 .not-front .region-content-inner .block-without-title {
 	padding: 20px;
 	border-radius: 15px;
