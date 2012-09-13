@@ -437,7 +437,7 @@ and (min-width : 700px) {
   box-shadow: 1px 1px 10px rgba(50, 50, 50, 0.5);
   height: 116px;
   width: 210px;
-  background-size: 210px 116px;
+  background-size: 210px 232px;
 }
 
 .region-sidebar-second a.register-now:hover {
