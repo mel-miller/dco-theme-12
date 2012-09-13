@@ -74,10 +74,14 @@
 
 
 
+/**************************************************
+*** staff page
+**************************************************/
 
-
-
-
+.view-id-attendees.view-display-id-page_2 .user-picture img {
+  width: 100px;
+  height: auto;
+}
 
 
 

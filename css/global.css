@@ -701,7 +701,7 @@ and (min-width : 700px) {
 }
 
 /**************************************************
-*** staff page ---- still need to work on this for smaller screens
+*** staff page
 **************************************************/
 
 .view-id-attendees.view-display-id-page_2 table  {
@@ -712,7 +712,10 @@ and (min-width : 700px) {
 	padding: 5px;
 }
 
-
+.view-id-attendees.view-display-id-page_2 .user-picture img {
+  width: 76px;
+  height: auto;
+}
 
 
 
