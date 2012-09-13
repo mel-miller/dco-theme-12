@@ -75,13 +75,23 @@
 
 
 /**************************************************
-*** staff page
+*** sessions pages
 **************************************************/
 
-.view-id-attendees.view-display-id-page_2 .user-picture img {
-  width: 100px;
-  height: auto;
+.view-id-sessions td {
+  padding:10px;
 }
+
+.view-id-sessions td.views-field.views-field-picture {
+  font-size: 100%;
+}
+
+.view-id-sessions .sticky-table {
+  font-size: 100%;
+}
+
+
+
 
 
 

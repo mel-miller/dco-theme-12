@@ -90,7 +90,7 @@ h1#page-title {
 
 #messages .messages {
   border-radius: 15px;
-  margin-top: 7px;
+  margin-top: 10px;
 }
 
 /**************************************************
@@ -694,14 +694,13 @@ and (min-width : 700px) {
 
 
 .region-postscript-first-inner .block-sponsors-block-2,
-.region-postscript-first-inner .block-sponsors-block-4,
 .region-postscript-first-inner .block-sponsors-block-3 {
   float: left;
   margin: 30px;
 }
 
 /**************************************************
-*** staff page
+*** staff page ---- still need to work on this for smaller screens
 **************************************************/
 
 .view-id-attendees.view-display-id-page_2 table  {
@@ -712,22 +711,32 @@ and (min-width : 700px) {
 	padding: 5px;
 }
 
-.view-id-attendees.view-display-id-page_2 .user-picture img {
-  width: 76px;
-  height: auto;
-}
+
 
 
 
 
 /**************************************************
-*** sessions pages styles go here
+*** sessions pages
 **************************************************/
+
+.view-id-sessions {
+
+}
 
 .view-id-sessions li {
 	list-style-type: none;	
 }
 
+.view-id-sessions td {
+  padding:5px;
+}
 
+.view-id-sessions td.views-field.views-field-picture {
+  font-size: 95%;
+}
 
+.view-id-sessions .sticky-table {
+  width: 100%;
+}
 

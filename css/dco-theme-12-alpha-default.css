@@ -102,13 +102,16 @@
 	padding: 20px 10px 20px 0;
 }
 
-#block-views-commerce-cart-block-block-1 .line-item-summary-checkout  {
-  float: right;
-  margin-bottom: 5px;
+.not-front .region-content-inner .block-without-title {
+	padding: 15px;
 }
 
-#block-views-commerce-cart-block-block-1 .line-item-summary-view-cart  {
-  margin-right: 0;
-  float: right;
-  margin-bottom: 15px;
+
+
+/**************************************************
+*** sessions pages
+**************************************************/
+
+.view-id-sessions .sticky-table {
+  font-size: 85%;
 }
