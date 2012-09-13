@@ -108,6 +108,18 @@
 
 
 
+#block-views-commerce-cart-block-block-1 .line-item-summary-checkout  {
+  float: right;
+  margin-bottom: 5px;
+}
+
+#block-views-commerce-cart-block-block-1 .line-item-summary-view-cart  {
+  margin-right: 0;
+  float: right;
+  margin-bottom: 15px;
+}
+
+
 /**************************************************
 *** sessions pages
 **************************************************/
