@@ -323,6 +323,10 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#74b3db', end
   margin-right: 5px;
 }
 
+#region-user ul {
+  text-align: center;
+}
+
 #region-user li {
   text-transform: uppercase;
   font-size: 80%;
@@ -340,10 +344,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#74b3db', end
   -moz-border-radius: 6px;
   border: 2px solid #fff;
   box-shadow: 2px 2px 6px rgba(50, 50, 50, 0.5);
+  display: inline-block;
 }
 
 #region-user li a.user-menu-twitter {
-  background-color: #138FFF;
+  text-indent: -9999px;
+  width: 16px;
+  background: url(https://twitter.com/images/resources/twitter-bird-dark-bgs.png) no-repeat 1px -1px #138FFF;
+  background-size: 28px auto;
 }
 
 #region-user li a.user-menu-twitter:hover {
