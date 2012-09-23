@@ -309,6 +309,38 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#74b3db', end
   text-align: center;
 }
 
+/**************************************************
+*** User Zone
+**************************************************/
+#zone-user-wrapper {
+  background: #000; 
+  color: #fff;
+  min-height: 35px;
+}
+#region-user {padding: 5px 5% 5px 0;}
+
+#region-user li {
+  text-transform: uppercase;
+  font-size: 80%;
+  margin: 5px 0;
+  display: inline-block;
+}
+#region-user li a {
+  font-weight: 400;
+  color: #fff;
+  text-decoration: none;
+  padding: 4px 7px;
+  background: #444;
+  border-radius: 4px;
+  -moz-border-radius: 4px;
+}
+#region-user li a:hover {
+  background: #666;
+}
+.region-user-inner {
+  text-align: center;
+}
+
 
 /**************************************************
 *** Header Zone
@@ -398,6 +430,7 @@ and (min-width : 700px) {
 /**************************************************
 *** Content Zone
 **************************************************/
+
 #zone-content {}
 .zone-content {
   color: #000;
