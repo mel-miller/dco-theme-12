@@ -374,7 +374,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#74b3db', end
 	font-stretch: narrower;
 	font-size: 175%;
 	z-index: 99;
-	margin: 35px 0 0 15px;
+	margin: 25px 0 0 15px;
 }
 #logo-text a {
 	color: #fff;
@@ -393,12 +393,12 @@ and (min-width : 321px) {
 	text-transform: uppercase;
 	font-stretch: narrower;
 	z-index: 99;
-	margin: 50px 0 0 14%;
+	margin: 25px 0 0 14%;
   }
 }
 @media only screen 
 and (min-width : 400px) {
-   #logo-text {margin: 50px 0 0 18%;}
+   #logo-text {margin: 25px 0 0 18%;}
 }
 @media only screen 
 and (min-width : 450px) {
@@ -412,32 +412,32 @@ and (min-width : 450px) {
 	font-stretch: narrower;
 	font-size: 260%;
 	z-index: 99;
-	margin: 50px 0 0 7%;
+	margin: 35px 0 0 7%;
   }
 }
 @media only screen 
 and (min-width : 510px) {
-   #logo-text {margin: 50px 0 0 10%;}
+   #logo-text {margin: 35px 0 0 10%;}
 }
 @media only screen 
 and (min-width : 530px) {
-   #logo-text {margin: 50px 0 0 13%;}
+   #logo-text {margin: 35px 0 0 13%;}
 }
 @media only screen 
 and (min-width : 570px) {
-   #logo-text {margin: 50px 0 0 15%;}
+   #logo-text {margin: 35px 0 0 15%;}
 }
 @media only screen 
 and (min-width : 600px) {
-   #logo-text {margin: 50px 0 0 17%;}
+   #logo-text {margin: 35px 0 0 17%;}
 }
 @media only screen 
 and (min-width : 630px) {
-   #logo-text {margin: 50px 0 0 20%;}
+   #logo-text {margin: 35px 0 0 20%;}
 }
 @media only screen 
 and (min-width : 700px) {
-   #logo-text {margin: 50px 0 0 22%;}
+   #logo-text {margin: 35px 0 0 22%;}
 }
 
 .region-preface-first,
