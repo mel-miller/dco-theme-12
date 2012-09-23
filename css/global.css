@@ -691,8 +691,16 @@ and (min-width : 700px) {
 *** sponsors postscript and page view
 **************************************************/
 
+.view-id-Sponsors .view-content .views-row img {
+  margin: 5%;
+}
+
+.view-id-Sponsors .view-content .views-row {
+  display: inline;
+}
+
 .view-id-Sponsors.view-display-id-page_1 .views-row.views-row-last {
-	margin-bottom: 30px;
+	margin-bottom: 0px;
 }
 
 .view-id-Sponsors.view-display-id-page_1 h3 {margin: 40px 0 10px 0;}
