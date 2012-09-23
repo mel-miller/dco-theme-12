@@ -349,13 +349,12 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#74b3db', end
 
 #region-user li a.user-menu-twitter {
   text-indent: -9999px;
-  width: 16px;
-  background: url(https://twitter.com/images/resources/twitter-bird-dark-bgs.png) no-repeat 1px -1px #138FFF;
-  background-size: 28px auto;
+  width: 17px;
+  background: url(images/twitter-bird.png) no-repeat center center #138FFF;
 }
 
 #region-user li a.user-menu-twitter:hover {
-  background-color: #1182E8;
+  background: url(images/twitter-bird.png) no-repeat center center #1182E8;
 }
 
 #region-user li a:hover {
