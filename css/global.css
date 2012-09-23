@@ -357,6 +357,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#74b3db', end
   background: url(images/twitter-bird.png) no-repeat center center #1182E8;
 }
 
+#region-user li a.user-menu-register {
+  background-color: #CF1520;
+}
+
+#region-user li a.user-menu-register:hover {
+  background-color: #A6111A;
+}
+
 #region-user li a:hover {
   background: #179151;
 }
