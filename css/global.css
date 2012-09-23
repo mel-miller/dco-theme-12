@@ -342,11 +342,11 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#74b3db', end
   box-shadow: 2px 2px 6px rgba(50, 50, 50, 0.5);
 }
 
-#region-user #block-menu-menu-twitter li a {
+#region-user li a.user-menu-twitter {
   background-color: #138FFF;
 }
 
-#region-user #block-menu-menu-twitter li a:hover {
+#region-user li a.user-menu-twitter:hover {
   background-color: #1182E8;
 }
 
