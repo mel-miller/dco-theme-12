@@ -691,15 +691,15 @@ and (min-width : 700px) {
 *** sponsors postscript and page view
 **************************************************/
 
-.view-id-Sponsors .view-content .views-row img {
+.page-sponsors .view-id-Sponsors .view-content .views-row img {
   margin: 5%;
 }
 
-.view-id-Sponsors .view-content .views-row {
+.page-sponsors .view-id-Sponsors .view-content .views-row {
   display: inline;
 }
 
-.view-id-Sponsors.view-display-id-page_1 .views-row.views-row-last {
+.page-sponsors .view-id-Sponsors.view-display-id-page_1 .views-row.views-row-last {
 	margin-bottom: 0px;
 }
 
