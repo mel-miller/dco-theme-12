@@ -692,7 +692,7 @@ and (min-width : 700px) {
 **************************************************/
 
 .view-display-id-page_1 .view-content .views-row img {
-  margin: 5%;
+  margin: 25px 7%;
   vertical-align: middle;
 }
 
