@@ -61,12 +61,14 @@ h2.block-title {
   font-size: 150%;
   text-transform: uppercase;
   margin-bottom: 10px;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
 }
 
 h2.node-title {
   font-size: 200%;
   font-weight: 800;
   color: #000;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5); 
 }
 
 h2.node-title a {
@@ -80,9 +82,10 @@ h2.node-title a:hover {
 
 
 h1#page-title {
- font-size: 260%;
- color: #fff;
- padding: 0 0 10px 10px;
+  font-size: 260%;
+  color: #fff;
+  padding: 0 0 10px 10px;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
 }
 .tabs {
   padding: 10px 0 30px 0;
@@ -544,7 +547,7 @@ and (min-width : 700px) {
 #block-system-user-menu,
 #block-views-commerce-cart-block-block-1 {
   padding: 15px;
-  border-radius: 12px;
+  border-radius: 15px;
   margin-bottom: 30px;
   background: #222;
   color: #fff;
@@ -554,7 +557,7 @@ and (min-width : 700px) {
   background: #fff;
   color: #000;
   padding: 10px;
-  border-radius: 8px;
+  border-radius: 10px;
   margin-top: 15px;
 }
 #block-views-tweets-block h2 {
@@ -609,6 +612,13 @@ and (min-width : 700px) {
 	position: relative;
 }
 
+.page-user .user-picture {
+  border-radius: 15px;
+  border: 3px solid #222;
+  overflow: hidden;
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
+  background: #222;
+}
 
 /**************************************************
 *** Postscript Zone
@@ -754,6 +764,7 @@ and (min-width : 700px) {
 
 .region-postscript-first-inner h2 {
   text-align: center;
+  text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5); 
 }
 
 .responsive-layout-narrow .region-postscript-first-inner h2 {
@@ -763,7 +774,7 @@ and (min-width : 700px) {
 
 .region-postscript-first-inner .views-field-field-logo .field-content {
   padding: 15px 0;
-  border-radius: 6px;
+  border-radius: 10px;
   border: 3px solid #fff;
   background: #fff;
   height: 120px;
