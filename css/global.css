@@ -750,7 +750,7 @@ and (min-width : 700px) {
 
 
 .region-postscript-first-inner {
-
+  text-align: center;
 }
 
 .region-postscript-first-inner h2 {
@@ -776,7 +776,7 @@ and (min-width : 700px) {
 .region-postscript-first-inner .block-sponsors-block-2,
 .region-postscript-first-inner .block-sponsors-block-3,
 .region-postscript-first-inner .block-sponsors-block-4 {
-  float: left;
+  display: inline-block;
   margin: 30px;
 }
 
