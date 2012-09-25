@@ -747,8 +747,6 @@ and (min-width : 700px) {
 }
 
 
-
-
 .region-postscript-first-inner {
   text-align: center;
 }
@@ -759,13 +757,13 @@ and (min-width : 700px) {
 
 
 .region-postscript-first-inner .views-field-field-logo .field-content {
-  float: left;
   padding: 15px;
   margin: 0 10px;
   border-radius: 6px;
   border: 3px solid #fff;
   background: #fff;
-  height: 60px;
+  height: 62px;
+  line-height: 56px;
 }
 
 .region-postscript-first-inner .views-field-field-logo .field-content img {
