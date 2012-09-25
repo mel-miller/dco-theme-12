@@ -287,6 +287,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#74b3db', end
   background: #000; 
   color: #fff;
   min-height: 35px;
+  box-shadow: 1px 1px 10px rgba(50, 50, 50, .5);
 }
 #region-menu {padding: 5px 5% 5px 0;}
 
@@ -346,7 +347,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#74b3db', end
   border-radius: 6px;
   -moz-border-radius: 6px;
   border: 2px solid #fff;
-  box-shadow: 2px 2px 6px rgba(50, 50, 50, 0.5);
+  box-shadow: 1px 1px 10px rgba(50, 50, 50, 0.5);
   display: inline-block;
 }
 
@@ -782,6 +783,7 @@ and (min-width : 700px) {
   line-height: 120px;
   display: inline-block;
   text-align: center;
+  box-shadow: 1px 1px 10px rgba(50, 50, 50, .5);
 }
 
 .responsive-layout-narrow .region-postscript-first-inner .views-field-field-logo .field-content {
