@@ -497,7 +497,7 @@ and (min-width : 450px) {
 .region-second-level-menu-inner,
 .region-sidebar-first-inner,
 .region-sidebar-second-inner {
-	padding: 20px 10px;
+	padding: 20px 10px 0 10px;
 }
 
 .region-sidebar-second-inner table {
@@ -534,7 +534,7 @@ and (min-width : 450px) {
 .not-front .region-content-inner .block-without-title {
 	padding: 20px;
 	border-radius: 15px;
-	margin: 10px 0 30px 0;
+	margin: 10px 0 20px 0;
 	background: #fff;
 	box-shadow: 1px 1px 10px rgba(50, 50, 50, 0.5);
 }
