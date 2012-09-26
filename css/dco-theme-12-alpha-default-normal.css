@@ -40,8 +40,7 @@
 }
 
 /* adjusted for various browsers */
-.safari6 .ipad .region-header-second,
-.chrome .ipad .region-header-second,
+.ipad .region-header-second,
 .ff .region-header-second,
 .ie .region-header-second,
 .opera .region-header-second,
@@ -50,8 +49,7 @@
   margin-top: 205px;
   z-index: 10;
 }
-.safari6 .ipad .region-header-third,
-.chrome .ipad .region-header-third,
+.ipad .region-header-third,
 .ff .region-header-third,
 .ie .region-header-third,
 .opera .region-header-third,
@@ -59,8 +57,7 @@
 .chrome23 .region-header-third { /* about sign */
   margin-top: 215px;
 }
-.safari6 .ipad .region-header-fourth,
-.chrome .ipad .region-header-fourth,
+.ipad .region-header-second,
 .ff .region-header-fourth,
 .ie .region-header-fourth,
 .opera .region-header-fourth,
