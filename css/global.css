@@ -352,6 +352,16 @@ input.form-submit:active,
   background: url(images/twitter-bird.png) no-repeat center center #107EE0;
 }
 
+#region-user li a.user-menu-rss {
+  text-indent: -9999px;
+  width: 17px;
+  background: url(images/rss-icon.png) no-repeat center center #f97e3a;
+}
+
+#region-user li a.user-menu-rss:hover {
+  background: url(images/rss-icon.png) no-repeat center center #EB7737;
+}
+
 #region-user li a.user-menu-register {
   background-color: #CF1520;
 }
