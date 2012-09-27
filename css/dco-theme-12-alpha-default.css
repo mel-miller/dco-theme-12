@@ -60,9 +60,11 @@
   margin-top: 260px;
   z-index: 10;
 }
+.safari5.ipad .region-header-third,
 .region-header-third { /* about sign */
   margin-top: 272px;
 }
+.safari5.ipad .region-header-fourth,
 .region-header-fourth { /* sponsors sign */
   margin-top: 225px;
 }
