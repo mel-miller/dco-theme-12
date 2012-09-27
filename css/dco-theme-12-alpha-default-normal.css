@@ -33,7 +33,6 @@
 .region-header-second { /* location sign */
   margin-top: 340px;
 }
-
 .safari5.ipad .region-header-third,
 .region-header-third { /* about sign */
   margin-top: 347px;
@@ -44,7 +43,7 @@
 }
 
 /* adjusted for various browsers */
-.ipad .region-header-second,
+.safari6.ipad .region-header-second,
 .ff .region-header-second,
 .ie .region-header-second,
 .opera .region-header-second,
@@ -53,7 +52,7 @@
   margin-top: 205px;
   z-index: 10;
 }
-.ipad .region-header-third,
+.safari6.ipad .region-header-third,
 .ff .region-header-third,
 .ie .region-header-third,
 .opera .region-header-third,
@@ -61,7 +60,7 @@
 .chrome23 .region-header-third { /* about sign */
   margin-top: 215px;
 }
-.ipad .region-header-fourth,
+.safari6.ipad .region-header-fourth,
 .ff .region-header-fourth,
 .ie .region-header-fourth,
 .opera .region-header-fourth,
