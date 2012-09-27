@@ -29,13 +29,17 @@
 .region-preface-first { /* sessions sign */
   margin-top: -235px;
 }
+.safari5.ipad .region-header-second,
 .region-header-second { /* location sign */
   margin-top: 340px;
 }
+
+.safari5.ipad .region-header-third,
 .region-header-third { /* about sign */
   margin-top: 347px;
 }
-.region-header-fourth{ /* sponsors sign */
+.safari5.ipad .region-header-fourth,
+.region-header-fourth { /* sponsors sign */
   margin-top: 290px;
 }
 
