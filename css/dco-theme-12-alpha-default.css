@@ -71,6 +71,7 @@
 
 /* adjusted for various browsers */
 .safari6.ipad .region-header-second,
+.ipad .region-header-second,
 .ff .region-header-second,
 .ie .region-header-second,
 .opera .region-header-second,
@@ -80,6 +81,7 @@
   z-index: 10;
 }
 .safari6.ipad .region-header-third,
+.ipad .region-header-third,
 .ff .region-header-third,
 .ie .region-header-third,
 .opera .region-header-third,
@@ -88,6 +90,7 @@
   margin-top: 172px;
 }
 .safari6.ipad .region-header-fourth,
+.ipad .region-header-fourth,
 .ff .region-header-fourth,
 .ie .region-header-fourth,
 .opera .region-header-fourth,
