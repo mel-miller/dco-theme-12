@@ -718,12 +718,21 @@ and (min-width : 450px) {
 **************************************************/
 
 .view-display-id-page_1 .view-content .views-row img {
-  margin: 25px 7%;
   vertical-align: middle;
 }
 
 .view-display-id-page_1 .view-content .views-row {
-  display: inline;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+  margin: 30px 0;
+}
+
+@media only screen 
+and (min-width : 510px) {
+  .view-display-id-page_1 .view-content .views-row {
+    width: 48%;
+  }
 }
 
 .view-display-id-page_1 .views-row.views-row-last {
