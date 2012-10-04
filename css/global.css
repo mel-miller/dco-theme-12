@@ -628,12 +628,11 @@ and (min-width : 450px) {
 	position: relative;
 }
 
-.page-user .user-picture {
+.page-user .user-picture img {
   border-radius: 15px;
-  border: 3px solid #222;
-  overflow: hidden;
+  padding: 3px;
   box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.5);
-  background: #222;
+  background: #fff;
 }
 
 /**************************************************
