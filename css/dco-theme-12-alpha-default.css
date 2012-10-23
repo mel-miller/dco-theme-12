@@ -142,3 +142,40 @@
 .view-id-sessions .sticky-table {
   font-size: 85%;
 }
+
+table.views-matrix {
+  border: 0;
+}
+
+table.views-matrix tbody tr th.views-matrix-row-header {
+  text-align: right;
+  vertical-align: middle;
+  background: #FFFFFF;
+  border-right: 1px solid #000000;
+  border-top: 1px solid #000000;
+  border-bottom: 0;
+}
+table.views-matrix thead tr th.views-matrix-col-header {
+  text-align: center;
+  background: #FFFFFF;
+  border-left: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+}
+table.views-matrix thead tr th.views-matrix-col-first {
+  border: 0;
+  background: #FFFFFF;
+}
+
+table.views-matrix tbody tr {
+  border: 0;
+}
+
+table.views-matrix tbody tr td.odd,
+table.views-matrix tbody tr td.even {
+  background: #FFFFFF;
+  border: 0;
+}
+
+table.views-matrix tbody tr td.views-matrix-empty {
+  background: #d0d0d0;
+}
