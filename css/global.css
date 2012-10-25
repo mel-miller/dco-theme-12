@@ -568,17 +568,17 @@ table.views-matrix tbody tr td.views-matrix-empty {
   background-position: 0 -116px;
 }
 
-/*
-.not-front .region-content-inner .block-without-title {
-*/
 .not-front .region-content-inner #content-and-tabs {
 	border-radius: 15px;
-	margin: 10px 0 20px 0;
+	margin: 0 0 20px 0;
 	background: #fff;
 	box-shadow: 1px 1px 10px rgba(50, 50, 50, 0.5);
   position: relative;
 }
 
+.not-front .region-content-inner #content-and-tabs .secondary {
+  margin-top: 10px;
+}
 .not-front .region-content-inner .tabs {
   border: 0;
   margin: 0;
