@@ -571,7 +571,7 @@ table.views-matrix tbody tr td.views-matrix-empty {
 /*
 .not-front .region-content-inner .block-without-title {
 */
-#content-and-tabs {
+.not-front .region-content-inner #content-and-tabs {
 	padding: 20px;
 	border-radius: 15px;
 	margin: 10px 0 20px 0;
