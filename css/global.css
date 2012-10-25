@@ -568,7 +568,10 @@ table.views-matrix tbody tr td.views-matrix-empty {
   background-position: 0 -116px;
 }
 
+/*
 .not-front .region-content-inner .block-without-title {
+*/
+#content-and-tabs {
 	padding: 20px;
 	border-radius: 15px;
 	margin: 10px 0 20px 0;
@@ -583,7 +586,7 @@ table.views-matrix tbody tr td.views-matrix-empty {
   padding-bottom: 0;
 }
 
-.not-front .region-content-inner .tabs li a {
+.not-front .region-content-inner .tabs .primary li a {
   border-radius: 6px 6px 0 0;
   box-shadow: 1px 1px 10px rgba(50, 50, 50, 0.5);
   padding-top: 2px;
