@@ -596,6 +596,7 @@ table.views-matrix tbody tr td.views-matrix-empty {
 .not-front .region-content-inner .block-without-title {
   margin-top: 3px;
   position: relative;
+  padding: 15px;
 }
 
 #block-views-tweets-block,
