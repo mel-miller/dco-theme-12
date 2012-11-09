@@ -13,6 +13,10 @@
   padding-right: 20px;
 }
 
+#region-menu li a {
+  display: inline;
+  width: auto;
+}
 
 /**************************************************
 *** Header Zone
