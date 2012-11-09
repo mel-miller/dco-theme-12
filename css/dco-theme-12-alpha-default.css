@@ -133,6 +133,9 @@
   margin-bottom: 15px;
 }
 
+#region-second-level-menu ul li a {
+  display: inline;
+}
 
 
 /**************************************************

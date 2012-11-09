@@ -650,6 +650,7 @@ table.views-matrix tbody tr td.views-matrix-empty {
   padding: 8px 10px;
   border-radius: 8px;
   box-shadow: 1px 1px 10px rgba(50, 50, 50, 0.5);
+  display: block;
 }
 
 #region-second-level-menu li .active {
