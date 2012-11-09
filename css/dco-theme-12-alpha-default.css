@@ -111,6 +111,10 @@
   background: url(images/background-720.png) repeat-y center center;
 }
 
+input[type="text"] {
+  width: auto;
+}
+
 /**************************************************
 *** Content Zone
 **************************************************/
