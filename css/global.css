@@ -921,3 +921,10 @@ and (min-width : 510px) {
   width: 100%;
 }
 
+.view-id-sessions .views-field.views-field-picture {
+  max-width: 100px
+}
+
+.views-id-sessions h3 {
+  text-transform: none;
+}
