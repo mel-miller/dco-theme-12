@@ -95,7 +95,8 @@ h1#page-title {
   margin-top: 10px;
 }
 
-input[type="text"] {
+input[type="text"],
+input[type="password"] {
   width: 100%;
 }
 
