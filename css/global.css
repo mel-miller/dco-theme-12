@@ -754,7 +754,7 @@ table.views-matrix tbody tr td.views-matrix-empty {
 .node-news .submitted {margin: 20px 0 10px 0;}
 
 .node .field-item {
-  display: inline;
+  display: block;
 }
 
 /**************************************************
