@@ -217,6 +217,10 @@ input.form-submit:active,
   margin-right: 10px;
 }
 
+.form-actions a {
+  vertical-align: bottom;
+}
+
 /**************************************************
 *** pagers
 **************************************************/
