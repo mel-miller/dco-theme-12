@@ -947,9 +947,6 @@ and (min-width : 510px) {
   text-transform: none;
 }
 
-.view-cod-schedule .views-row-first {
-  border-bottom: 1px solid #000000;
-}
 .view-cod-schedule .views-row-odd {
   background-color: #EFEFEF;
 }
@@ -958,6 +955,10 @@ and (min-width : 510px) {
 }
 .view-cod-schedule .views-row {
   padding: 5px;
+}
+.view-cod-schedule .view-content h3 {
+  margin: 0;
+  border-bottom: 1px solid #000000;
 }
 .view-cod-schedule .views-row-last {
   margin-bottom: 10px;
