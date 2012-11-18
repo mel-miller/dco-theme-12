@@ -963,17 +963,12 @@ and (min-width : 510px) {
   margin-bottom: 10px;
 }
 /* Room title */
-.view-cod-schedule .views-field-title-1 div {
-  display: inline-block;
-  min-width: 200px;
-  width: 200px;
-}
 .view-cod-schedule .views-field-title-1 a {
   text-decoration: underline;
   color: #000000;
 }
 /* Session title */
 .view-cod-schedule .views-field-title div {
-  display: inline-block;
+  margin: 2.5px 25%;
 }
 
