@@ -774,11 +774,11 @@ table.views-matrix tbody tr td.views-matrix-empty {
 *** sponsors postscript and page view
 **************************************************/
 
-.view-display-id-page_1 .view-content .views-row img {
+.view-Sponsors .view-content .views-row img {
   vertical-align: middle;
 }
 
-.view-display-id-page_1 .view-content .views-row {
+.view-Sponsors .view-content .views-row {
   display: inline-block;
   text-align: center;
   width: 100%;
@@ -787,12 +787,12 @@ table.views-matrix tbody tr td.views-matrix-empty {
 
 @media only screen 
 and (min-width : 510px) {
-  .view-display-id-page_1 .view-content .views-row {
+  .sponsors-page .view-content .views-row {
     width: 48%;
   }
 }
 
-.view-display-id-page_1 .views-row.views-row-last {
+.view-Sponsors .views-row.views-row-last {
 	margin-bottom: 0px;
 }
 
@@ -945,4 +945,32 @@ and (min-width : 510px) {
 
 .views-id-sessions h3 {
   text-transform: none;
+}
+
+.view-cod-schedule .views-row-first {
+  border-bottom: 1px solid #000000;
+}
+.view-cod-schedule .views-row-odd {
+  background-color: #EFEFEF;
+}
+.view-cod-schedule .views-row-even {
+  background-color: #CFCFCF;
+}
+.view-cod-schedule .views-row {
+  padding: 5px;
+}
+.view-cod-schedule .views-row-last {
+  margin-bottom: 10px;
+}
+/* Room title */
+.view-cod-schedule .views-field-title-1 a {
+  text-decoration: underline;
+  color: #000000;
+}
+/* Session title */
+.view-cod-schedlue .views-field-title {
+  margin: 0 0 25px 0;
+  font-weight: normal;
+  font-size: 1.5em;
+  display: inline-block;
 }
