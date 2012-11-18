@@ -974,8 +974,6 @@ and (min-width : 510px) {
 }
 /* Session title */
 .view-cod-schedule .views-field-title div {
-  margin: 0 0 25px 0;
-  font-weight: normal;
-  font-size: 1.5em;
   display: inline-block;
 }
+

@@ -187,3 +187,7 @@ table.views-matrix tbody tr td.even {
 table.views-matrix tbody tr td.views-matrix-empty {
   background: #d0d0d0;
 }
+
+.view-cod-schedule .views-field-title div {
+  display: block;
+}
