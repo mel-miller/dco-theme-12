@@ -970,9 +970,11 @@ and (min-width : 510px) {
 }
 /* Session title, experience, speakers */
 .view-cod-schedule .views-field-title div,
-.view-cod-schedule .views-field-field-experience div, 
-.view-cod-schedule .views-field-field-speakers div {
+.view-cod-schedule .views-field-field-experience, 
+.view-cod-schedule .views-field-field-speakers {
   margin: 2.5px 25%;
+}
+.view-cod-schedule .views-field-field-experience div {
   display: inline-block;
 }
 
