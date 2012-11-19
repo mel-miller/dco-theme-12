@@ -968,8 +968,11 @@ and (min-width : 510px) {
   text-decoration: underline;
   color: #000000;
 }
-/* Session title */
-.view-cod-schedule .views-field-title div {
+/* Session title, experience, speakers */
+.view-cod-schedule .views-field-title div,
+.view-cod-schedule .views-field-field-experience div, 
+.view-cod-schedule .views-field-field-speakers div {
   margin: 2.5px 25%;
+  display: inline-block;
 }
 
