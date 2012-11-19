@@ -969,6 +969,9 @@ and (min-width : 510px) {
   color: #000000;
 }
 /* Session title, experience, speakers */
+.view-cod-schedule .views-field-title {
+  font-size: 1.2em;
+}
 .view-cod-schedule .views-field-title div,
 .view-cod-schedule .views-field-field-experience, 
 .view-cod-schedule .views-field-field-speakers {
