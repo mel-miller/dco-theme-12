@@ -4,7 +4,7 @@
     'html' => TRUE,
     'attributes' => array(),
   );
-  $sign_link = l($sign_img, 'program/sessions/proposed', $options);
+  $sign_link = l($sign_img, 'program', $options);
 ?>
 
 <div<?php print $attributes; ?>> 
