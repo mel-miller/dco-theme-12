@@ -974,7 +974,9 @@ and (min-width : 510px) {
 }
 .view-cod-schedule .views-field-title div,
 .view-cod-schedule .views-field-field-experience, 
-.view-cod-schedule .views-field-field-speakers {
+.view-cod-schedule .views-field-field-speakers,
+.view-cod-schedule .views-field-field-slides
+.view-cod-schedule .views-field-field-session-video-url {
   margin: 2.5px 25%;
 }
 .view-cod-schedule .views-field-field-experience div {
