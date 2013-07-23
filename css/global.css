@@ -640,7 +640,7 @@ table.views-matrix tbody tr td.views-matrix-empty {
 #block-views-tweets-block ul li {
   margin: 0;
 }
-.simplenews-block div.content {
+.block-simplenews div.content {
   margin-bottom: 10px;
 }
 .tweet-text {font-size: 90%; margin-bottom: 5px;}
