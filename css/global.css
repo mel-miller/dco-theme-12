@@ -614,6 +614,7 @@ table.views-matrix tbody tr td.views-matrix-empty {
 #block-views-tweets-block,
 #block-user-login,
 #block-system-user-menu,
+.block-simplenews,
 #block-views-commerce-cart-block-block-1 {
   padding: 15px 15px 5px 15px;
   border-radius: 15px;
@@ -622,6 +623,7 @@ table.views-matrix tbody tr td.views-matrix-empty {
   color: #fff;
   box-shadow: 1px 1px 10px rgba(50, 50, 50, 0.5);
 }
+.block-simplenews div.content,
 #block-views-tweets-block .views-row {
   background: #fff;
   color: #000;
